@@ -1,0 +1,1 @@
+../../../../../xpjsip/xpjsip/include/pjmedia-codec/config_auto.h

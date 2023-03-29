@@ -1,16 +1,43 @@
 PODS:
-  - FGCallKit (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FGCallKit (0.2.0):
+    - AFNetworking (= 4.0.1)
+    - xpjsip (= 2.12.1)
+  - xpjsip (2.12.1)
 
 DEPENDENCIES:
+  - AFNetworking (= 4.0.1)
   - FGCallKit (from `../`)
+  - xpjsip (= 2.12.1)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - xpjsip
 
 EXTERNAL SOURCES:
   FGCallKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FGCallKit: a34e2b1b403a8380004a06b25c5e565910253ebd
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FGCallKit: 3c1f5d267b8f92d080e8002e0f2d54161410e943
+  xpjsip: cebea22365f2a6693cff576515381242eb839254
 
-PODFILE CHECKSUM: 2bfce92c7dc5da73550b7e0019dae1d48621a445
+PODFILE CHECKSUM: 3a36603075f33f17bb174211edc26aa2e12db9f9
 
 COCOAPODS: 1.11.3

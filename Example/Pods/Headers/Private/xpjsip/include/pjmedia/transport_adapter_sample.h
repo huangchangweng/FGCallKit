@@ -1,0 +1,1 @@
+../../../../../xpjsip/xpjsip/include/pjmedia/transport_adapter_sample.h
