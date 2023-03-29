@@ -1,0 +1,6 @@
+framework module Pods_FGCallKit_Example {
+  umbrella header "Pods-FGCallKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

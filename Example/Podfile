@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FGCallKit_Example' do
+  pod 'FGCallKit', :path => '../'
+
+  target 'FGCallKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

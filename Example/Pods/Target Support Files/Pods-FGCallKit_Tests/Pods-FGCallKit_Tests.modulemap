@@ -1,0 +1,6 @@
+framework module Pods_FGCallKit_Tests {
+  umbrella header "Pods-FGCallKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

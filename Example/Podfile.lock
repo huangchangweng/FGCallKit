@@ -1,0 +1,16 @@
+PODS:
+  - FGCallKit (0.1.0)
+
+DEPENDENCIES:
+  - FGCallKit (from `../`)
+
+EXTERNAL SOURCES:
+  FGCallKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FGCallKit: a34e2b1b403a8380004a06b25c5e565910253ebd
+
+PODFILE CHECKSUM: 2bfce92c7dc5da73550b7e0019dae1d48621a445
+
+COCOAPODS: 1.11.3
