@@ -21,8 +21,6 @@ typedef NS_ENUM(NSUInteger, FGCallAccountStatus) {
 
 /// 呼出回调
 typedef void (^FGCallKitOutgoingCallBlock)(BOOL succeed, NSString *msg, FGCall *call);
-/// 语音账号状态改变通知
-extern NSString * const FGCallKitAccountStatusChanged;
 
 @class FGCallKit;
 @protocol FGCallKitDelegate <NSObject>
@@ -31,6 +29,11 @@ extern NSString * const FGCallKitAccountStatusChanged;
  * @param call 来电对象
  */
 - (void)callKit:(FGCallKit *)callKit didReceiveIncomingCall:(FGCall *)call;
+/**
+ * 账号状态改变回调
+ * @param status 状态
+ */
+- (void)callKit:(FGCallKit *)callKit statusDidChanged:(FGCallAccountStatus)status;
 @end
 
 @interface FGCallKit : NSObject
@@ -45,6 +48,24 @@ extern NSString * const FGCallKitAccountStatusChanged;
  * 单例
  */
 + (instancetype)sharedKit;
+
+/**
+ * 创建连接
+ * @param username 用户名
+ * @param password 密码
+ */
+- (BOOL)connectWithUsername:(NSString *)username
+                   password:(NSString *)password;
+
+/**
+ * 断开连接
+ */
+- (void)disconnect;
+
+/**
+ * 重置
+ */
+- (BOOL)reset;
 
 /**
  * 拨号
