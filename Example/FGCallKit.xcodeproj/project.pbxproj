@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = huangchangweng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5KK672UFY8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = EDAD10ADBB190D8C49F27679 /* Pods-FGCallKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KK672UFY8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FGCallKit/FGCallKit-Prefix.pch";
 				INFOPLIST_FILE = "FGCallKit/FGCallKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = AE521F09CC1A1BC3E9F6551D /* Pods-FGCallKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KK672UFY8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FGCallKit/FGCallKit-Prefix.pch";
 				INFOPLIST_FILE = "FGCallKit/FGCallKit-Info.plist";

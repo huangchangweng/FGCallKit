@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "FGCall.h"
 #import "FGCallKit.h"
 #import "Gossip.h"
 #import "GSAccount+Private.h"
