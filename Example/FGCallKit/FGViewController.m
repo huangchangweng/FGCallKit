@@ -30,7 +30,7 @@
 #pragma mark - Response Event
 
 - (IBAction)testAction:(UIButton *)sender {
-    [[FGCallKit new] textMethod];
+    [[FGCallKit sharedKit] connectWithUsername:@"" password:@""];
 }
 
 @end

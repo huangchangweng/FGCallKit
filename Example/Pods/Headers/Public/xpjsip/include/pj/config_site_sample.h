@@ -1,1 +1,0 @@
-../../../../../xpjsip/xpjsip/include/pj/config_site_sample.h

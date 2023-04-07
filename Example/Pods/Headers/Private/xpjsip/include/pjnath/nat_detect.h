@@ -1,1 +1,0 @@
-../../../../../xpjsip/xpjsip/include/pjnath/nat_detect.h

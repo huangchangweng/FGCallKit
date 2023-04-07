@@ -1,1 +1,0 @@
-../../../../../xpjsip/xpjsip/include/pjnath/stun_session.h

@@ -1,1 +1,0 @@
-../../../../../xpjsip/xpjsip/include/pjmedia/config_auto.h

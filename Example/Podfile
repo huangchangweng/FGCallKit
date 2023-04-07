@@ -6,7 +6,8 @@ target 'FGCallKit_Example' do
   pod 'FGCallKit', :path => '../'
   
   pod 'AFNetworking', '4.0.1'
-  pod 'xpjsip', '2.12.1'
+  pod 'pjsip', '2.9.0.2'
+#  pod 'VialerSIPLib', "3.7.3"
 
   target 'FGCallKit_Tests' do
     inherit! :search_paths
@@ -14,3 +15,16 @@ target 'FGCallKit_Example' do
     
   end
 end
+
+
+#post_install do |installer_representation|
+#    installer_representation.pods_project.targets.each do |target|
+#        target.build_configurations.each do |config|
+#            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+#          config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
+#            config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'PJ_AUTOCONF=1'
+#            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
+#        end
+#    end
+#end
+

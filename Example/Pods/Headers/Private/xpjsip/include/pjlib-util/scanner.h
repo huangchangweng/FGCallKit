@@ -1,1 +1,0 @@
-../../../../../xpjsip/xpjsip/include/pjlib-util/scanner.h
