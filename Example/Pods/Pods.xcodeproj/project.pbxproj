@@ -95,6 +95,8 @@
 		DB6A82E76A7E43527D627687E7D577D5 /* GSOutgoingCall.m in Sources */ = {isa = PBXBuildFile; fileRef = A832E0341C9D86026B3C7FDEBD33AC17 /* GSOutgoingCall.m */; };
 		E3BADD904B5C3CC6584F5574E416B394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E631B8F2DAA6899BE1E4D54552AE410B /* GSCodecInfo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9B4891016AB6E781C5B7361AC5ACE1 /* GSCodecInfo+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F82E9529E4FAB60032136C /* FGHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F82E9329E4FAB60032136C /* FGHttpManager.h */; };
+		E6F82E9629E4FAB60032136C /* FGHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F82E9429E4FAB60032136C /* FGHttpManager.m */; };
 		E8372DA8FDA0830EF5FF160493C0B37A /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A8BF16E041AAC28812986DD917622F /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA4EAA3FE13800EB0C31C58669763858 /* GSUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB33508CC9B71E1D5B8285CD94BC725 /* GSUserAgent.m */; };
 		ED0B81FF1DEC0B138947EA93D22E5A4E /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 569B11F3CE44BE9E24E279FF9F285FDA /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -525,6 +527,8 @@
 		E5FC4BE5B992AA6A2B5D66BBE2DD20E3 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		E63681A5939B3A348739895E148ACBA6 /* splitcomb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = splitcomb.h; path = build/pjproject/src/pjmedia/include/pjmedia/splitcomb.h; sourceTree = "<group>"; };
 		E6CD3C5B42440AA9996483B7B4A72BC0 /* pjmedia-codec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "pjmedia-codec.h"; path = "build/pjproject/src/pjmedia/include/pjmedia-codec.h"; sourceTree = "<group>"; };
+		E6F82E9329E4FAB60032136C /* FGHttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGHttpManager.h; sourceTree = "<group>"; };
+		E6F82E9429E4FAB60032136C /* FGHttpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGHttpManager.m; sourceTree = "<group>"; };
 		E80B778C53699ABA4FCB76CDFEED878C /* hmac_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac_md5.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/hmac_md5.h"; sourceTree = "<group>"; };
 		E95C1603871E4896027CF213B6C324A3 /* cli.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cli.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/cli.h"; sourceTree = "<group>"; };
 		E9F5D73A484A7B045E492682BCDE5325 /* stun_session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_session.h; path = build/pjproject/src/pjnath/include/pjnath/stun_session.h; sourceTree = "<group>"; };
@@ -617,6 +621,8 @@
 				0B1E3B4A96CEB09DCBCB0B2791688385 /* FGCall.m */,
 				FA3B726F9EE7E6BB307C42B6A427F527 /* FGCallKit.h */,
 				36C702AB087A6FC5926CE0CBE6749EAC /* FGCallKit.m */,
+				E6F82E9329E4FAB60032136C /* FGHttpManager.h */,
+				E6F82E9429E4FAB60032136C /* FGHttpManager.m */,
 				FE494F1F0AEAB2C073216722C706E58A /* Pod */,
 				4516211A5F8709B133988EE2B27D0FCC /* Support Files */,
 				BF0CB4799655A4AE46C93F7025E247F9 /* Vender */,
@@ -1256,6 +1262,7 @@
 				91C1444242117EB91A639B59C34D7DF7 /* GSOutgoingCall.h in Headers */,
 				260C814093A7965CE50BAA07EC548089 /* GSPJUtil.h in Headers */,
 				A3C5BD4EA4CF0D3C88145A9547CD857F /* GSRingback.h in Headers */,
+				E6F82E9529E4FAB60032136C /* FGHttpManager.h in Headers */,
 				3EBD62D503EF1D21A05803D4ABD6D378 /* GSUserAgent.h in Headers */,
 				069940870EC2415CE563415D42BC2260 /* GSUserAgent+Private.h in Headers */,
 				9FD95ED681CC1864772F3E6193C0A000 /* PJSIP.h in Headers */,
@@ -1455,6 +1462,7 @@
 			files = (
 				CB270593BA8C5159D5216F01E90D9651 /* FGCall.m in Sources */,
 				785621ED241CA0073AAE11522FCB9DBF /* FGCallKit.m in Sources */,
+				E6F82E9629E4FAB60032136C /* FGHttpManager.m in Sources */,
 				54B5587797168B8C3CC0A6FAD893474B /* FGCallKit-dummy.m in Sources */,
 				36272E98DB80759089E29967A224B327 /* GSAccount.m in Sources */,
 				B6F96ABAF490A760D6667A8E52A65F48 /* GSAccountConfiguration.m in Sources */,

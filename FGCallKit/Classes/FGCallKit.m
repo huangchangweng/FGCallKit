@@ -8,6 +8,7 @@
 #import "FGCallKit.h"
 #import <AVFoundation/AVFoundation.h>
 #import "GSUserAgent.h"
+#import "FGHttpManager.h"
 
 @interface FGCallKit()<GSAccountDelegate>
 
