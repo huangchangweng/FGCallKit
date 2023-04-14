@@ -172,7 +172,7 @@
  */
 - (void)handfree:(BOOL)isHandfree
 {
-    AVAudioSessionCategoryOptions options = isHandfree ? AVAudioSessionCategoryOptionDefaultToSpeaker : AVAudioSessionCategoryOptionDuckOthers;
+    AVAudioSessionCategoryOptions options = isHandfree ? AVAudioSessionCategoryOptionDefaultToSpeaker : AVAudioSessionCategoryOptionAllowBluetooth;
     dispatch_async(dispatch_get_main_queue(), ^{
         [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord
                                          withOptions:options
