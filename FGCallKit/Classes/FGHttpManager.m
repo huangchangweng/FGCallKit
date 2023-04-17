@@ -8,6 +8,9 @@
 #import "FGHttpManager.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+#import "FGKitInfo.h"
+#import "FGUtils.h"
+#import "FGCallKit.h"
 
 #ifdef DEBUG
 #define FGLog(...) printf("[%s] %s [第%d行]: %s\n", __TIME__ ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String])
@@ -74,11 +77,11 @@ static AFHTTPSessionManager *_sessionManager;
     
     // token
     if (verifyToken) {
-//        NSString *tokenType = [FGAppInfo shared].tokenType;
-//        NSString *token = [FGAppInfo shared].token;
-//        if (![HLUtils isNullOrEmpty:token]) {
-//            headers[@"Authorization"] = [NSString stringWithFormat:@"%@ %@", tokenType, token];
-//        }
+        NSString *tokenType = [FGKitInfo shared].tokenType;
+        NSString *token = [FGKitInfo shared].token;
+        if (![FGUtils isNullOrEmpty:tokenType] && ![FGUtils isNullOrEmpty:token]) {
+            headers[@"Authorization"] = [NSString stringWithFormat:@"%@ %@", tokenType, token];
+        }
     }
     
     return headers;
@@ -99,9 +102,9 @@ static AFHTTPSessionManager *_sessionManager;
     NSString *message = [responseObject objectForKey:@"message"];
     id data = [responseObject objectForKey:@"data"];
     if (code == 0 && status) {
-        if (success) { success(YES, message, data); }
+        if (success) { success(YES, message, code, data); }
     } else {
-        if (success) { success(NO, message, responseObject); }
+        if (success) { success(NO, message, code, responseObject); }
     }
 }
 
@@ -123,7 +126,10 @@ static AFHTTPSessionManager *_sessionManager;
     NSInteger code = [[dict objectForKey:@"code"] integerValue];
     // 登录信息失效
     if (code == 401 || code == 402) {
-   
+        [[FGKitInfo shared] clearLoginInfo];
+        if ([[FGCallKit sharedKit].delegate respondsToSelector:@selector(callKitLoginInvalid)]) {
+            [[FGCallKit sharedKit].delegate callKitLoginInvalid];
+        }
     }
     
     if (failure) { failure(error); }
@@ -164,7 +170,14 @@ static AFHTTPSessionManager *_sessionManager;
                                success:(FGRequestSuccessBlock)success
                                failure:(FGRequestFailureBlock)failure
 {
-    NSString *url = url = [NSString stringWithFormat:@"%@%@", @"", method];
+    // 处理method
+    BOOL isGetWayPort = [method hasPrefix:@"/api/"];
+    // 非网关接口 并且 不是以"/seat/"开头
+    if (!isGetWayPort && ![method hasPrefix:@"/seat/"]) {
+        method = [NSString stringWithFormat:@"/seat%@", method];
+    }
+    
+    NSString *url = url = [NSString stringWithFormat:@"%@%@", @"https://gateway-test.feige.cn", method];
     
     if (_isOpenLog) {
         FGLog(@"\n<----%@请求---->\n%@\n%@", type == GET ? @"GET" : @"POST", url, FGToJson(parameters));

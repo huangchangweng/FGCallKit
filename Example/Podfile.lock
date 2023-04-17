@@ -16,17 +16,21 @@ PODS:
     - AFNetworking/NSURLSession
   - FGCallKit (0.2.0):
     - AFNetworking (= 4.0.1)
+    - MJExtension (= 3.4.1)
     - pjsip (= 2.9.0.2)
+  - MJExtension (3.4.1)
   - pjsip (2.9.0.2)
 
 DEPENDENCIES:
   - AFNetworking (= 4.0.1)
   - FGCallKit (from `../`)
+  - MJExtension (= 3.4.1)
   - pjsip (= 2.9.0.2)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - MJExtension
     - pjsip
 
 EXTERNAL SOURCES:
@@ -34,10 +38,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  FGCallKit: 2aadb75c87eac3bc1a2ab9a3868bd992b753b52f
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  FGCallKit: 15a492c77feef558ef2cff08074e8e20f24df6ca
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   pjsip: faa8aa0e79b341155801b87c2ea3015003d05ed9
 
-PODFILE CHECKSUM: 1cf225da40d24d6b0deaf45a1b8cf8a6f2ffe463
+PODFILE CHECKSUM: 44d185d8bacfc8f428347948965c6966dd100a32
 
 COCOAPODS: 1.11.3

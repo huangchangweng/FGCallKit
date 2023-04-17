@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^FGRequestSuccessBlock)(BOOL succeed, NSString *msg, id data);    ///< 请求成功回调
+typedef void (^FGRequestSuccessBlock)(BOOL succeed, NSString *msg, NSInteger code, id data);    ///< 请求成功回调
 typedef void (^FGRequestFailureBlock)(NSError *error);                          ///< 请求失败回调
 
 typedef NS_ENUM(NSInteger, FGRequestType) {

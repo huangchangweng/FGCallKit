@@ -42,5 +42,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '4.0.1'
   s.dependency 'pjsip', '2.9.0.2'
+  s.dependency 'MJExtension', '3.4.1'
 #  s.dependency 'VialerSIPLib', '3.7.3'
 end

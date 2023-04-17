@@ -21,6 +21,8 @@ typedef NS_ENUM(NSUInteger, FGCallAccountStatus) {
 
 /// 呼出回调
 typedef void (^FGCallKitOutgoingCallBlock)(BOOL succeed, NSString *msg, FGCall *call);
+/// 通用回调
+typedef void (^FGCallKitCommonCallBlock)(NSInteger code, NSString *msg, id data);
 
 @class FGCallKit;
 @protocol FGCallKitDelegate <NSObject>
@@ -34,6 +36,10 @@ typedef void (^FGCallKitOutgoingCallBlock)(BOOL succeed, NSString *msg, FGCall *
  * @param status 状态
  */
 - (void)callKit:(FGCallKit *)callKit statusDidChanged:(FGCallAccountStatus)status;
+/**
+ * 登录信息失效，收到此回调需重新登录SDK
+ */
+- (void)callKitLoginInvalid;
 @end
 
 @interface FGCallKit : NSObject
@@ -50,22 +56,22 @@ typedef void (^FGCallKitOutgoingCallBlock)(BOOL succeed, NSString *msg, FGCall *
 + (instancetype)sharedKit;
 
 /**
- * 创建连接
- * @param username 用户名
- * @param password 密码
+ * 登录
+ * @param apiKey    平台申请的key
+ * @param apiSecret 平台申请的secret
+ * @param username  用户名
+ * @param callBlock 回调
  */
-- (BOOL)connectWithUsername:(NSString *)username
-                   password:(NSString *)password;
+- (void)login:(NSString *)apiKey
+    apiSecret:(NSString *)apiSecret
+     username:(NSString *)username
+    callBlock:(FGCallKitCommonCallBlock)callBlock;
 
 /**
- * 断开连接
+ * 退出登录
+ * @param callBlock 回调
  */
-- (void)disconnect;
-
-/**
- * 重置
- */
-- (BOOL)reset;
+- (void)logout:(FGCallKitCommonCallBlock)callBlock;
 
 /**
  * 拨号

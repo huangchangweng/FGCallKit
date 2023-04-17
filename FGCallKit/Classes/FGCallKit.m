@@ -9,6 +9,10 @@
 #import <AVFoundation/AVFoundation.h>
 #import "GSUserAgent.h"
 #import "FGHttpManager.h"
+#import "FGUtils.h"
+#import "FGKitInfo.h"
+#import "FGAccountInfoModel.h"
+#import <MJExtension/MJExtension.h>
 
 @interface FGCallKit()<GSAccountDelegate>
 
@@ -61,31 +65,38 @@
                  context:nil];
 }
 
-#pragma mark - Public Method
-
-/**
- * 单例
- */
-+ (instancetype)sharedKit
+/// 获取账号信息
+- (void)getAccountInfo:(FGCallKitCommonCallBlock)callBlock
 {
-    static FGCallKit *instance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        instance = [[FGCallKit alloc] init];
-    });
-    return instance;
+    [FGHttpManager request:POST
+                    method:@"/Account/GetAccountInfo"
+                parameters:nil
+                   success:^(BOOL succeed, NSString *msg, NSInteger code, id data) {
+        if (succeed) {
+            FGAccountInfoModel *model = [FGAccountInfoModel mj_objectWithKeyValues:data];
+            [FGKitInfo shared].accountInfo = model;
+            
+            // 登录SIP
+            [self loginSIP];
+            
+            if (callBlock) { callBlock(200, @"登录成功", nil); }
+        } else {
+            if (callBlock) { callBlock(code, msg, nil); }
+        }
+    } failure:^(NSError *error) {
+        if (callBlock) { callBlock(501, @"服务器或网络出错", nil); }
+    }];
 }
 
-/**
- * 创建连接
- * @param username 用户名
- * @param password 密码
- */
-- (BOOL)connectWithUsername:(NSString *)username
-                   password:(NSString *)password
+/// 登录SIP
+- (void)loginSIP
 {
-    NSString *domain = @"";
-    NSString *server = @"";
+    FGUserModel *model = [FGKitInfo shared].accountInfo.userInfo;
+    
+    NSString *username = model.extensionUserName;
+    NSString *password = model.extensionPassword;
+    NSString *domain = [NSString stringWithFormat:@"%@.feige.cn", [FGKitInfo shared].accountInfo.companyInfo.id];
+    NSString *server = [NSString stringWithFormat:@"%@:%ld", model.ip, model.tcpPort];
     
     GSAccountConfiguration *account = [GSAccountConfiguration defaultConfiguration];
     account.address = [NSString stringWithFormat:@"%@@%@", username, domain];
@@ -105,7 +116,7 @@
     BOOL flag = [agent start];
     
     if (!flag) {
-        return NO;
+        return;
     }
     
     GSAccount *acc = agent.account;
@@ -113,37 +124,101 @@
     BOOL connect = [acc connect];
     
     [self addAccountKVO];
-    return connect;
 }
 
-/**
- * 断开连接
- */
-- (void)disconnect
-{
-    GSAccount *account = [GSUserAgent sharedAgent].account;
-    if (!account) {
-        return;
-    }
-    if (account.status != GSAccountStatusConnected) {
-        return;
-    }
-    _accountStatus = FGAccountStatusOffline;
-    if ([self.delegate respondsToSelector:@selector(callKit:statusDidChanged:)]) {
-        [self.delegate callKit:self statusDidChanged:self.accountStatus];
-    }
-    [account disconnect];
-}
-
-/**
- * 重置
- */
-- (BOOL)reset
+/// 销毁SIP
+- (void)resetSIP
 {
     if ([GSUserAgent sharedAgent].account.status == GSAccountStatusConnecting) {
-        return NO;
+        return;
     }
-    return [[GSUserAgent sharedAgent] reset];
+    [[GSUserAgent sharedAgent] reset];
+}
+
+#pragma mark - Public Method
+
+/**
+ * 单例
+ */
++ (instancetype)sharedKit
+{
+    static FGCallKit *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[FGCallKit alloc] init];
+    });
+    return instance;
+}
+
+/**
+ * 登录
+ * @param apiKey    平台申请的key
+ * @param apiSecret 平台申请的secret
+ * @param username  用户名
+ * @param callBlock 回调
+ */
+- (void)login:(NSString *)apiKey
+    apiSecret:(NSString *)apiSecret
+     username:(NSString *)username
+    callBlock:(FGCallKitCommonCallBlock)callBlock
+{
+    if ([FGUtils isNullOrEmpty:apiKey] ||
+        [FGUtils isNullOrEmpty:apiSecret] ||
+        [FGUtils isNullOrEmpty:username]) {
+        if (callBlock) { callBlock(500, @"apiKey、apiSecret、username不能为空", nil); }
+        return;
+    }
+    
+    NSString *nowTimeTimestamp = [FGUtils nowTimeTimestamp];
+    NSString *sign = [FGUtils md5:[NSString stringWithFormat:@"%@%@%@%@", apiKey, username, nowTimeTimestamp, apiSecret]];
+    NSDictionary *parameters = @{@"apiKey": apiKey,
+                                 @"userName": username,
+                                 @"timestamp": nowTimeTimestamp,
+                                 @"sign": sign
+    };
+    [FGHttpManager request:POST
+                    method:@"/api/User/SDKLogin"
+                parameters:parameters
+                   success:^(BOOL succeed, NSString *msg, NSInteger code, id data) {
+        if (succeed) {
+            NSString *tokenType = data[@"tokenType"];
+            NSString *token = data[@"token"];
+            [FGKitInfo shared].tokenType = tokenType;
+            [FGKitInfo shared].token = token;
+            
+            // 获取账号信息
+            [self getAccountInfo:callBlock];
+        } else {
+            if (callBlock) { callBlock(code, msg, nil); }
+        }
+    } failure:^(NSError *error) {
+        if (callBlock) { callBlock(501, @"服务器或网络出错", nil); }
+    }];
+}
+
+/**
+ * 退出登录
+ * @param callBlock 回调
+ */
+- (void)logout:(FGCallKitCommonCallBlock)callBlock
+{
+    [FGHttpManager request:POST
+                    method:@"/api/User/Logout"
+                parameters:nil
+                   success:^(BOOL succeed, NSString *msg, NSInteger code, id data) {
+        if (succeed) {
+            // 销魂SIP
+            [self resetSIP];
+            // 清除登录信息
+            [[FGKitInfo shared] clearLoginInfo];
+            
+            if (callBlock) { callBlock(300, @"退出登录成功", nil); }
+        } else {
+            if (callBlock) { callBlock(code, msg, nil); }
+        }
+    } failure:^(NSError *error) {
+        if (callBlock) { callBlock(501, @"服务器或网络出错", nil); }
+    }];
 }
 
 /**
@@ -154,7 +229,7 @@
 - (void)outgoingCall:(NSString *)number
                block:(FGCallKitOutgoingCallBlock)block
 {
-    NSString *domain = @"";
+    NSString *domain = [NSString stringWithFormat:@"%@.feige.cn", [FGKitInfo shared].accountInfo.companyInfo.id];
     
     GSAccount *account = [GSUserAgent sharedAgent].account;
     NSString *uri = [NSString stringWithFormat:@"sip:%@@%@", number, domain];

@@ -7,6 +7,7 @@ target 'FGCallKit_Example' do
   
   pod 'AFNetworking', '4.0.1'
   pod 'pjsip', '2.9.0.2'
+  pod 'MJExtension', '3.4.1'
 #  pod 'VialerSIPLib', "3.7.3"
 
   target 'FGCallKit_Tests' do
