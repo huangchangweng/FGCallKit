@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   
   s.static_framework = true
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/FGCal*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '4.0.1'
   s.dependency 'pjsip', '2.9.0.2'
