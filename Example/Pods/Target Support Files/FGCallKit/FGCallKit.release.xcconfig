@@ -2,7 +2,7 @@ CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/FGCallKit
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/pjsip"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/xpjsip"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
@@ -10,5 +10,5 @@ PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
 PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
 PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
 SKIP_INSTALL = YES
-SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_ROOT}/pjsip/build/openssl/lib/ios" "${PODS_ROOT}/pjsip/build/opus/dependencies/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjlib-util/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjlib/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjmedia/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjnath/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjsip/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/third_party/lib"
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_ROOT}/xpjsip/xpjsip/lib/pjlib" "${PODS_ROOT}/xpjsip/xpjsip/lib/pjlib-util" "${PODS_ROOT}/xpjsip/xpjsip/lib/pjmedia" "${PODS_ROOT}/xpjsip/xpjsip/lib/pjnath" "${PODS_ROOT}/xpjsip/xpjsip/lib/pjsip" "${PODS_ROOT}/xpjsip/xpjsip/lib/third_party"
 USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

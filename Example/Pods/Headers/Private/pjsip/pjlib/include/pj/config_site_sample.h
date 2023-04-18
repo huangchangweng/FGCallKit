@@ -1,1 +1,0 @@
-../../../../../../pjsip/build/pjproject/src/pjlib/include/pj/config_site_sample.h

@@ -1,1 +1,0 @@
-../../../../../../pjsip/build/pjproject/src/pjmedia/include/pjmedia-codec/g722.h

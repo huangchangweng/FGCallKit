@@ -6,7 +6,8 @@ target 'FGCallKit_Example' do
   pod 'FGCallKit', :path => '../'
   
   pod 'AFNetworking', '4.0.1'
-  pod 'pjsip', '2.9.0.2'
+#  pod 'pjsip', '2.9.0.2'
+  pod 'xpjsip', '2.12.1'
   pod 'MJExtension', '3.4.1'
 #  pod 'VialerSIPLib', "3.7.3"
 
