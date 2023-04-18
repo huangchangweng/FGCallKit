@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGCallKit'
-  s.version          = '0.8.4'
+  s.version          = '0.8.5'
   s.summary          = '飞鸽传书语音通话SDK'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,13 @@ TODO: Add long description of the pod here.
   #   'FGCallKit' => ['FGCallKit/Assets/*.png']
   # }
   
+  s.subspec 'Gossip' do |ss|
+    ss.source_files = 'FGCallKit/Classes/Gossip/*'
+  end
+  
   s.static_framework = true
 
-  s.public_header_files = ['FGCallKit/Classes/**/FGCallKit.h', 'FGCallKit/Classes/**/FGCall.h']
+  s.public_header_files = ['FGCallKit/Classes/FGCallKit.h', 'FGCallKit/Classes/FGCall.h']
  
   s.dependency 'AFNetworking', '4.0.1'
 #  s.dependency 'pjsip', '2.9.0.2'
