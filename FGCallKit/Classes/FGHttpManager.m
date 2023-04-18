@@ -178,7 +178,13 @@ static AFHTTPSessionManager *_sessionManager;
         method = [NSString stringWithFormat:@"/seat%@", method];
     }
     
-    NSString *url = url = [NSString stringWithFormat:@"%@%@", @"https://gateway-test.feige.cn", method];
+    // 处理host
+    NSString *host = @"https://gateway.feige.cn";
+    if ([FGCallKit sharedKit].isTest) {
+        host = @"https://gateway-test.feige.cn";
+    }
+    
+    NSString *url = url = [NSString stringWithFormat:@"%@%@", host, method];
     
     if (_isOpenLog) {
         FGLog(@"\n<----%@请求---->\n%@\n%@", type == GET ? @"GET" : @"POST", url, FGToJson(parameters));

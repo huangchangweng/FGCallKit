@@ -47,8 +47,10 @@ typedef void (^FGCallKitCommonCallBlock)(NSInteger code, NSString *msg, id data)
 @property (nonatomic, assign, readonly) FGCallAccountStatus accountStatus;
 /// 代理
 @property (nonatomic, weak) id<FGCallKitDelegate> delegate;
-/// 通话中是否免提
+/// 通话中是否免提，默认NO
 @property (nonatomic, assign, readonly) BOOL isHandfree;
+/// 是否测试环境，默认NO（注：该属性一般不设置）
+@property (nonatomic, assign) BOOL isTest;
 
 /**
  * 单例
@@ -80,6 +82,15 @@ typedef void (^FGCallKitCommonCallBlock)(NSInteger code, NSString *msg, id data)
  */
 - (void)outgoingCall:(NSString *)number
                block:(FGCallKitOutgoingCallBlock)block;
+
+/**
+ * 查询是否有来电
+ * 因为如果应用退到后台是接收不到来电的，所以需要在应用进入前台时查询一下是否有来电
+ * 注：该方法建议在以下方法中调用
+ * - (void)applicationDidBecomeActive:(UIApplication *)application
+ * 如果有来电会回调"- (void)callKit:(FGCallKit *)callKit didReceiveIncomingCall:(FGCall *)call"方法
+ */
+- (void)queryHaveIncoming;
 
 /**
  * 通话中开启/关闭免提

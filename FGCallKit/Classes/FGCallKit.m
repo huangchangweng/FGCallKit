@@ -247,6 +247,27 @@
 }
 
 /**
+ * 查询是否有来电
+ * 因为如果应用退到后台是接收不到来电的，所以需要在应用进入前台时查询一下是否有来电
+ * 注：该方法建议在以下方法中调用
+ * - (void)applicationDidBecomeActive:(UIApplication *)application
+ * 如果有来电会回调"- (void)callKit:(FGCallKit *)callKit didReceiveIncomingCall:(FGCall *)call"方法
+ */
+- (void)queryHaveIncoming
+{
+    NSString *extensionUserName =  [FGKitInfo shared].accountInfo.userInfo.extensionUserName;
+    if ([FGUtils isNullOrEmpty:extensionUserName]) {
+        return;
+    }
+    NSDictionary *parameters = @{@"callee": extensionUserName};
+    [FGHttpManager request:POST
+                    method:@"/agent/esl/notice"
+                parameters:parameters
+                   success:^(BOOL succeed, NSString *msg, NSInteger code, id data) {}
+                   failure:^(NSError *error) {}];
+}
+
+/**
  * 通话中开启/关闭免提
  * @param isHandfree 是否免提
  */
