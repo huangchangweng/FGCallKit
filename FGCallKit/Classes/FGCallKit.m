@@ -104,6 +104,7 @@
     account.password = password;
     account.domain = domain;
     account.proxyServer = server;
+    account.enableRingback = NO;
     
     GSConfiguration *configuration = [GSConfiguration defaultConfiguration];
     configuration.account = account;
@@ -122,6 +123,9 @@
     GSAccount *acc = agent.account;
     acc.delegate = self;
     BOOL connect = [acc connect];
+    if (!connect) {
+        NSLog(@"语音连接失败！");
+    }
     
     [self addAccountKVO];
 }
@@ -234,6 +238,7 @@
     GSAccount *account = [GSUserAgent sharedAgent].account;
     NSString *uri = [NSString stringWithFormat:@"sip:%@@%@", number, domain];
     GSCall *call = [GSCall outgoingCallToUri:uri fromAccount:account];
+    [call begin];
     
     FGCall *fgCall = [[FGCall alloc] initWithCall:call isIncoming:NO];
     if (block) {

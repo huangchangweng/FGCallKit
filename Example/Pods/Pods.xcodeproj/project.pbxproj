@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = pjsip;
+			productName = pjsip;
 		};
 /* End PBXAggregateTarget section */
 
@@ -292,7 +293,7 @@
 		31D46BB42EC6DED42FD269439EA9B564 /* os_winphone8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_winphone8.h; path = build/pjproject/src/pjlib/include/pj/compat/os_winphone8.h; sourceTree = "<group>"; };
 		325E146F058D76664E1752BC07292DA2 /* ipp_codecs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ipp_codecs.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/ipp_codecs.h"; sourceTree = "<group>"; };
 		32F67744CB9AC5DAE4E5277BAD20DFA3 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FGCallKit; path = FGCallKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FGCallKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		337B5AE5FAFD0EB21639B70B8C4886FE /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		339147F6CDFC886B0FD45A496039A4C0 /* vid_codec_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_codec_util.h; path = build/pjproject/src/pjmedia/include/pjmedia/vid_codec_util.h; sourceTree = "<group>"; };
 		33EC6014F38FCF78BFA78F36021008B8 /* ice_strans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ice_strans.h; path = build/pjproject/src/pjnath/include/pjnath/ice_strans.h; sourceTree = "<group>"; };
@@ -368,7 +369,7 @@
 		63EB1E0C5B0499C7BA6EE0D9A4284CEA /* pjsua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsua.h; path = "build/pjproject/src/pjsip/include/pjsua-lib/pjsua.h"; sourceTree = "<group>"; };
 		655055403FA3AEC5694676D89E493A3E /* getopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = getopt.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/getopt.h"; sourceTree = "<group>"; };
 		659F49404B72968888623324465D606D /* avi_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avi_stream.h; path = build/pjproject/src/pjmedia/include/pjmedia/avi_stream.h; sourceTree = "<group>"; };
-		6793208E2A12C9F279B9906601B27D3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6793208E2A12C9F279B9906601B27D3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67D8E6EE96CB46097F1AD3BBE1B7C309 /* echo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = echo.h; path = build/pjproject/src/pjmedia/include/pjmedia/echo.h; sourceTree = "<group>"; };
 		685A036FD90D034348F8C87967D21185 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/errno.h"; sourceTree = "<group>"; };
 		6869ED4B1ADBD3E907AAD23C701700EB /* rtcp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtcp.h; path = build/pjproject/src/pjmedia/include/pjmedia/rtcp.h; sourceTree = "<group>"; };
@@ -427,7 +428,7 @@
 		8363EE6498502FC3B397F0ABB5C9556F /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
 		8390E480EFEF02A530917381F84906BE /* turn_sock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = turn_sock.h; path = build/pjproject/src/pjnath/include/pjnath/turn_sock.h; sourceTree = "<group>"; };
 		83FD2E1417C4CB1A7828135195A9A884 /* doxygen.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = doxygen.hpp; path = build/pjproject/src/pjsip/include/pjsua2/doxygen.hpp; sourceTree = "<group>"; };
-		8425612266E59231F3E9720A439A75E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8425612266E59231F3E9720A439A75E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		85710A784CB12BC4425DE71FA5A17F29 /* size_t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = size_t.h; path = build/pjproject/src/pjlib/include/pj/compat/size_t.h; sourceTree = "<group>"; };
 		861156FFD8D438339BFB03753EA7B259 /* sip_msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_msg.h; path = build/pjproject/src/pjsip/include/pjsip/sip_msg.h; sourceTree = "<group>"; };
 		862C9EE02EBF3FCCCB1F7D82C1C41967 /* sip_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_parser.h; path = build/pjproject/src/pjsip/include/pjsip/sip_parser.h; sourceTree = "<group>"; };
@@ -478,7 +479,7 @@
 		9CEABD17E49C6D4CD62D4A84C0A0806C /* openh264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openh264.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/openh264.h"; sourceTree = "<group>"; };
 		9D39015339377028FF39C49E5DDF928B /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = build/pjproject/src/pjmedia/include/pjmedia/config.h; sourceTree = "<group>"; };
 		9D926557B124898ADEFBED8F1B7AE231 /* vid_toolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_toolbox.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/vid_toolbox.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E70F805FF4019E9707385AAFC72409B /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		9E8FF64925AA2148C6486FFCB9817EAB /* Pods-FGCallKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGCallKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9F4D384FC9B72B9C87F9B29229DFF65A /* FGCallKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FGCallKit-Info.plist"; sourceTree = "<group>"; };
@@ -582,7 +583,7 @@
 		D73F3FF6182E773E0AD073A44AE209F2 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		D77AAA1209CAFFAD843C47DCF2750327 /* sock_qos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sock_qos.h; path = build/pjproject/src/pjlib/include/pj/sock_qos.h; sourceTree = "<group>"; };
 		D8101B7D79628D031C642ED47F830C4F /* GSAccountConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAccountConfiguration.h; sourceTree = "<group>"; };
-		D8B2C8CCD5C1840DB64706B6EC5D6714 /* FGCallKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FGCallKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8B2C8CCD5C1840DB64706B6EC5D6714 /* FGCallKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FGCallKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D9800E733024D88CF6CEC86651E836DD /* FGUserModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGUserModel.m; path = FGCallKit/Classes/FGUserModel.m; sourceTree = "<group>"; };
 		D9ED582B4EB1BAA4345F379F92A8BBE8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		DA23E63EF6E7F42F072C60B068D5E070 /* stun_transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_transaction.h; path = build/pjproject/src/pjnath/include/pjnath/stun_transaction.h; sourceTree = "<group>"; };
@@ -743,7 +744,6 @@
 				79C9F9592032C2FCB59F708195117994 /* PJSIP.h */,
 				8D5EAD12B68BA4CFF3CFAF12CCE97C3B /* Util.h */,
 			);
-			name = Gossip;
 			path = Gossip;
 			sourceTree = "<group>";
 		};
@@ -1086,7 +1086,6 @@
 				2B0C466CF4F58920BD92EAC075C5E64E /* Frameworks */,
 				D2AAEE191EEF231CD44DC3C776F29D5F /* Support Files */,
 			);
-			name = pjsip;
 			path = pjsip;
 			sourceTree = "<group>";
 		};
@@ -1101,7 +1100,6 @@
 				C2D67AD4C8594F8AD9F5E6C297C8A232 /* Support Files */,
 				E74C87DF5B93F3B6DA8E7589500F46EA /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1169,7 +1167,6 @@
 				39A3DF021CDD6D1F1E1573ECB32E28E8 /* NSString+MJExtension.m */,
 				A11791BF2F0D50D61582CABD49F6782A /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -1374,7 +1371,7 @@
 			isa = PBXGroup;
 			children = (
 				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
-				32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit */,
+				32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit.framework */,
 				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */,
 				15C1E558F784D080B4AE62390620F6EE /* Pods-FGCallKit_Example */,
 				F3BBE3B5606D8A704D180AF0CFF5FFC2 /* Pods-FGCallKit_Tests */,
@@ -1548,7 +1545,7 @@
 			);
 			name = FGCallKit;
 			productName = FGCallKit;
-			productReference = 32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit */;
+			productReference = 32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3587D39D4ACCC05478F99A0251C08006 /* Pods-FGCallKit_Example */ = {
@@ -1878,6 +1875,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/FGCallKit/FGCallKit-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/pjsip\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjlib/include\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjlib-util/include\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjmedia/include\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjnath/include\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjsip/include\"",
+				);
 				INFOPLIST_FILE = "Target Support Files/FGCallKit/FGCallKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -2009,6 +2016,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/FGCallKit/FGCallKit-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/pjsip\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjlib/include\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjlib-util/include\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjmedia/include\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjnath/include\"",
+					"\"$(PODS_ROOT)/Headers/Public/pjsip/pjsip/include\"",
+				);
 				INFOPLIST_FILE = "Target Support Files/FGCallKit/FGCallKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -2112,8 +2129,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
