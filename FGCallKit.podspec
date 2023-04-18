@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGCallKit'
-  s.version          = '0.8.5'
+  s.version          = '0.8.6'
   s.summary          = '飞鸽传书语音通话SDK'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,9 @@ TODO: Add long description of the pod here.
   s.subspec 'Gossip' do |ss|
     ss.source_files = 'FGCallKit/Classes/Gossip/*'
   end
+  
+  # 在HEADER_SEARCH_PATHS中添加"$(PODS_ROOT)/Headers/Public/xpjsip/include"
+  s.pod_target_xcconfig = { "HEADER_SEARCH_PATHS" => '"$(PODS_ROOT)/Headers/Public/xpjsip/include"'}
   
   s.static_framework = true
 

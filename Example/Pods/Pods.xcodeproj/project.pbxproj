@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = xpjsip;
-			productName = xpjsip;
 		};
 /* End PBXAggregateTarget section */
 
@@ -204,7 +203,7 @@
 		028DA68D639DA8714A32AA9165B54B99 /* sip_transport_loop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_transport_loop.h; path = xpjsip/include/pjsip/sip_transport_loop.h; sourceTree = "<group>"; };
 		030E36AA8DFDEF56690179092F445F28 /* Pods-FGCallKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGCallKit_Example-Info.plist"; sourceTree = "<group>"; };
 		036884DC6B748831CF1BF23018578B3F /* xpidf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpidf.h; path = "xpjsip/include/pjsip-simple/xpidf.h"; sourceTree = "<group>"; };
-		037CCA1FDE9D28C9DF9FE8A1E81CDC13 /* FGCallKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FGCallKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		037CCA1FDE9D28C9DF9FE8A1E81CDC13 /* FGCallKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FGCallKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		044C3DB321567C582C3D0164DEDC7227 /* Gossip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Gossip.h; sourceTree = "<group>"; };
 		052C9EE7550D7DF93840BF009A3E8993 /* pjsip_simple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsip_simple.h; path = xpjsip/include/pjsip_simple.h; sourceTree = "<group>"; };
 		054D457DF9291CB82A9B4B3EC0C1B7CF /* config_site.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_site.h; path = xpjsip/include/pj/config_site.h; sourceTree = "<group>"; };
@@ -293,7 +292,7 @@
 		318D7B0429F6F42C91226135CB19229B /* sip_msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_msg.h; path = xpjsip/include/pjsip/sip_msg.h; sourceTree = "<group>"; };
 		320C7EC3F4FFF4E4D087399464121715 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		32E4977E7C471531C3B654E685445D6A /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "xpjsip/include/pjlib-util/md5.h"; sourceTree = "<group>"; };
-		32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FGCallKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FGCallKit; path = FGCallKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3390E2230754FFE0D512AC763B086E25 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		35002D1E47DA498597B7A4226A744571 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = xpjsip/include/pj/config.h; sourceTree = "<group>"; };
 		355166D2214E5F4A2536F10A62948D9B /* FGCallKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGCallKit.m; path = FGCallKit/Classes/FGCallKit.m; sourceTree = "<group>"; };
@@ -504,8 +503,8 @@
 		9B51EBD516BDDECDBC41FE1AB1F1774C /* call.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = call.hpp; path = xpjsip/include/pjsua2/call.hpp; sourceTree = "<group>"; };
 		9C2533F5C7263D865D3828708B6CC43C /* plc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plc.h; path = xpjsip/include/pjmedia/plc.h; sourceTree = "<group>"; };
 		9CB5BAC827C709F6C45C830EDA98F073 /* math.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = math.h; path = xpjsip/include/pj/math.h; sourceTree = "<group>"; };
-		9CC229019786DE26D14157C0865D13A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CC229019786DE26D14157C0865D13A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF5D4FDB25440BAE06D3E6F920FB3C1 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		9E0A1EB66462C8B2A43AD54E0B2A5235 /* sock.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = sock.hpp; path = "xpjsip/include/pj++/sock.hpp"; sourceTree = "<group>"; };
 		9E8FF64925AA2148C6486FFCB9817EAB /* Pods-FGCallKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGCallKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -675,7 +674,7 @@
 		FD6342F599730A09EA74DBA15C156848 /* m_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_auto.h; path = xpjsip/include/pj/compat/m_auto.h; sourceTree = "<group>"; };
 		FDCF18F8266175899EB9C462BB45C069 /* print_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = print_util.h; path = xpjsip/include/pjsip/print_util.h; sourceTree = "<group>"; };
 		FDFA733DB0D8F30C108C20CC980DECE4 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = xpjsip/include/pj/compat/errno.h; sourceTree = "<group>"; };
-		FE10DA851116BFDF3E35FFADA63F35B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE10DA851116BFDF3E35FFADA63F35B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FE2B780E8ECBAE73964E731F46D41CEE /* sip_auth_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_auth_parser.h; path = xpjsip/include/pjsip/sip_auth_parser.h; sourceTree = "<group>"; };
 		FF427A241956A0C894856B8862DF3D05 /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
 		FFB82BD3906E41C5A17572DC42917290 /* pjsip_ua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsip_ua.h; path = xpjsip/include/pjsip_ua.h; sourceTree = "<group>"; };
@@ -853,6 +852,7 @@
 				DA4713777BB9413B0DB86E90386B87F3 /* Support Files */,
 				7F3E0E69551FAD51DCA5D602F78EE779 /* UIKit */,
 			);
+			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -965,6 +965,7 @@
 				56D1AF7C4B8F10E77733C4635CF5B9AF /* NSString+MJExtension.m */,
 				31BC8EE684E90173D0A0529F67B58CCF /* Support Files */,
 			);
+			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -1329,6 +1330,7 @@
 				801989D166EA53A330845628FEF0A29C /* Frameworks */,
 				AC08C8EAE537345F9CE6FB7900B73CD8 /* Support Files */,
 			);
+			name = xpjsip;
 			path = xpjsip;
 			sourceTree = "<group>";
 		};
@@ -1404,7 +1406,7 @@
 			isa = PBXGroup;
 			children = (
 				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
-				32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit.framework */,
+				32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit */,
 				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */,
 				15C1E558F784D080B4AE62390620F6EE /* Pods-FGCallKit_Example */,
 				F3BBE3B5606D8A704D180AF0CFF5FFC2 /* Pods-FGCallKit_Tests */,
@@ -1569,7 +1571,7 @@
 			);
 			name = FGCallKit;
 			productName = FGCallKit;
-			productReference = 32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit.framework */;
+			productReference = 32FC2FD6BA8CF4BEC3E4FB497B29A686 /* FGCallKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		3587D39D4ACCC05478F99A0251C08006 /* Pods-FGCallKit_Example */ = {
@@ -2095,7 +2097,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2115,12 +2118,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/FGCallKit/FGCallKit-prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/xpjsip\"",
-					"\"$(PODS_ROOT)/Headers/Public/xpjsip/include\"",
-				);
 				INFOPLIST_FILE = "Target Support Files/FGCallKit/FGCallKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -2154,12 +2151,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/FGCallKit/FGCallKit-prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/xpjsip\"",
-					"\"$(PODS_ROOT)/Headers/Public/xpjsip/include\"",
-				);
 				INFOPLIST_FILE = "Target Support Files/FGCallKit/FGCallKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
