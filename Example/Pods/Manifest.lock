@@ -1,33 +1,33 @@
 PODS:
-  - AFNetworking (4.0.0):
-    - AFNetworking/NSURLSession (= 4.0.0)
-    - AFNetworking/Reachability (= 4.0.0)
-    - AFNetworking/Security (= 4.0.0)
-    - AFNetworking/Serialization (= 4.0.0)
-    - AFNetworking/UIKit (= 4.0.0)
-  - AFNetworking/NSURLSession (4.0.0):
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.0)
-  - AFNetworking/Security (4.0.0)
-  - AFNetworking/Serialization (4.0.0)
-  - AFNetworking/UIKit (4.0.0):
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FGCallKit (0.8.7):
-    - AFNetworking (= 4.0.0)
-    - FGCallKit/Gossip (= 0.8.7)
+  - FGCallKit (0.8.8):
+    - AFNetworking (= 4.0.1)
+    - FGCallKit/Gossip (= 0.8.8)
     - MJExtension (= 3.4.1)
     - xpjsip (= 2.12.1)
-  - FGCallKit/Gossip (0.8.7):
-    - AFNetworking (= 4.0.0)
+  - FGCallKit/Gossip (0.8.8):
+    - AFNetworking (= 4.0.1)
     - MJExtension (= 3.4.1)
     - xpjsip (= 2.12.1)
   - MJExtension (3.4.1)
   - xpjsip (2.12.1)
 
 DEPENDENCIES:
-  - AFNetworking (= 4.0.0)
+  - AFNetworking (= 4.0.1)
   - FGCallKit (from `../`)
   - MJExtension (= 3.4.1)
   - xpjsip (= 2.12.1)
@@ -43,11 +43,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 42892080606935f7a9ec3fda4927fdd37e9cd369
-  FGCallKit: 7afe7358f8b81f41ff03c252be120f20d0ebe89f
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  FGCallKit: 1c3f145d53cbf3cbf8650e7c820d784d7404529d
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   xpjsip: cebea22365f2a6693cff576515381242eb839254
 
-PODFILE CHECKSUM: 21b311c976d54003d54df6dd60db5900a00156d9
+PODFILE CHECKSUM: e8e9d594ceb47f727c06b7f377b557551d7da6c5
 
 COCOAPODS: 1.11.3
