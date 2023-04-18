@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FGCallKit (0.2.0):
+  - FGCallKit (0.3.0):
     - AFNetworking (= 4.0.1)
     - MJExtension (= 3.4.1)
     - pjsip (= 2.9.0.2)
@@ -39,7 +39,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  FGCallKit: 15a492c77feef558ef2cff08074e8e20f24df6ca
+  FGCallKit: 3a4150666358359d4a173ec6dbc282d6561db886
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   pjsip: faa8aa0e79b341155801b87c2ea3015003d05ed9
 
