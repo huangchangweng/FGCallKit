@@ -12,4 +12,3 @@ PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
 SKIP_INSTALL = YES
 SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_ROOT}/pjsip/build/openssl/lib/ios" "${PODS_ROOT}/pjsip/build/opus/dependencies/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjlib-util/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjlib/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjmedia/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjnath/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/pjsip/lib" "${PODS_ROOT}/pjsip/build/pjproject/src/third_party/lib"
 USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
-VALID_ARCHS = x86_64 armv7 arm64

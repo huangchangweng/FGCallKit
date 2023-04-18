@@ -24,6 +24,16 @@
     "Pod/Classes/**/FGCallKit.h",
     "Pod/Classes/**/FGCall.h"
   ],
+  "frameworks": [
+    "UIKit",
+    "VideoToolbox",
+    "AudioToolbox",
+    "AVFoundation",
+    "OpenGLES",
+    "QuartzCore",
+    "CoreMedia",
+    "CoreVideo"
+  ],
   "dependencies": {
     "AFNetworking": [
       "4.0.1"
@@ -34,8 +44,5 @@
     "MJExtension": [
       "3.4.1"
     ]
-  },
-  "pod_target_xcconfig": {
-    "VALID_ARCHS": "x86_64 armv7 arm64"
   }
 }

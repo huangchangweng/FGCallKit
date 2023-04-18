@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGCallKit'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = '飞鸽传书语音通话SDK'
 
 # This description is used to generate tags and improve search results.
@@ -38,12 +38,10 @@ TODO: Add long description of the pod here.
   
   s.static_framework = true
 
-  s.public_header_files = 'Pod/Classes/**/FGCallKit.h','Pod/Classes/**/FGCall.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = ['Pod/Classes/**/FGCallKit.h', 'Pod/Classes/**/FGCall.h']
+  s.frameworks          = 'UIKit', 'VideoToolbox', 'AudioToolbox', 'AVFoundation', 'OpenGLES', 'QuartzCore', 'CoreMedia', 'CoreVideo'
   s.dependency 'AFNetworking', '4.0.1'
   s.dependency 'pjsip', '2.9.0.2'
   s.dependency 'MJExtension', '3.4.1'
 #  s.dependency 'VialerSIPLib', '3.7.3'
-
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
