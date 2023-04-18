@@ -1,6 +1,6 @@
 {
   "name": "FGCallKit",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "summary": "飞鸽传书语音通话SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huangchangweng/FGCallKit",
@@ -13,23 +13,16 @@
   },
   "source": {
     "git": "https://github.com/huangchangweng/FGCallKit.git",
-    "tag": "0.8.1"
+    "tag": "0.8.2"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "FGCallKit/Classes/**/*",
   "static_framework": true,
-  "public_header_files": "Pod/Classes/**/*.h",
-  "frameworks": [
-    "UIKit",
-    "VideoToolbox",
-    "AudioToolbox",
-    "AVFoundation",
-    "OpenGLES",
-    "QuartzCore",
-    "CoreMedia",
-    "CoreVideo"
+  "public_header_files": [
+    "Pod/Classes/FGCallKit.h",
+    "Pod/Classes/FGCall.h"
   ],
   "dependencies": {
     "AFNetworking": [
@@ -41,11 +34,5 @@
     "MJExtension": [
       "3.4.1"
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   }
 }
