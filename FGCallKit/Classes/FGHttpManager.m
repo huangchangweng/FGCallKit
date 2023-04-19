@@ -139,6 +139,14 @@ static AFHTTPSessionManager *_sessionManager;
 #pragma mark - Public Method
 
 /**
+ * 开启日志打印，默认开启
+ */
++ (void)openLog:(BOOL)isOpenLog
+{
+    _isOpenLog = isOpenLog;
+}
+
+/**
  *  网络请求
  *  @param  type        请求类型
  *  @param  method      除host剩余路径

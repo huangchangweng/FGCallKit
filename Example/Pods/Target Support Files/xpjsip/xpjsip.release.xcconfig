@@ -7,6 +7,7 @@ LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/xpjsip/xpjsip/lib/pjlib" "${PO
 OTHER_LDFLAGS = $(inherited) -l"g7221codec" -l"gsmcodec" -l"ilbccodec" -l"pj" -l"pjlib-util" -l"pjmedia" -l"pjmedia-audiodev" -l"pjmedia-codec" -l"pjmedia-videodev" -l"pjnath" -l"pjsdp" -l"pjsip" -l"pjsip-simple" -l"pjsip-ua" -l"pjsua" -l"pjsua2" -l"resample" -l"speex" -l"srtp" -l"stdc++" -l"webrtc" -l"yuv" -framework "AVFoundation" -framework "AudioToolbox"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}
 PODS_ROOT = ${SRCROOT}
 PODS_TARGET_SRCROOT = ${PODS_ROOT}/xpjsip
 PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates

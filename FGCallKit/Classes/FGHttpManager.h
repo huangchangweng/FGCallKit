@@ -18,6 +18,11 @@ typedef NS_ENUM(NSInteger, FGRequestType) {
 @interface FGHttpManager : NSObject
 
 /**
+ * 开启日志打印，默认开启
+ */
++ (void)openLog:(BOOL)isOpenLog;
+
+/**
  *  网络请求
  *  @param  type        请求类型
  *  @param  method      除host剩余路径

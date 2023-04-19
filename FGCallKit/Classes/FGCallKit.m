@@ -52,6 +52,9 @@
 
 - (void)bulid
 {
+    // 开启/关闭请求日志
+    [FGHttpManager openLog:NO];
+    
     _accountStatus = (NSInteger)[GSUserAgent sharedAgent].account.status;
     _isHandfree = [AVAudioSession sharedInstance].categoryOptions == AVAudioSessionCategoryOptionDefaultToSpeaker;
 }
@@ -211,7 +214,7 @@
                 parameters:nil
                    success:^(BOOL succeed, NSString *msg, NSInteger code, id data) {
         if (succeed) {
-            // 销魂SIP
+            // 销毁SIP
             [self resetSIP];
             // 清除登录信息
             [[FGKitInfo shared] clearLoginInfo];

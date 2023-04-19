@@ -14,23 +14,23 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FGCallKit (0.8.8):
-    - AFNetworking (= 4.0.1)
-    - FGCallKit/Gossip (= 0.8.8)
-    - MJExtension (= 3.4.1)
-    - xpjsip (= 2.12.1)
-  - FGCallKit/Gossip (0.8.8):
-    - AFNetworking (= 4.0.1)
-    - MJExtension (= 3.4.1)
-    - xpjsip (= 2.12.1)
+  - FGCallKit (0.8.9):
+    - AFNetworking (~> 4.0.1)
+    - FGCallKit/Gossip (= 0.8.9)
+    - MJExtension (~> 3.4.1)
+    - xpjsip (~> 2.12.1)
+  - FGCallKit/Gossip (0.8.9):
+    - AFNetworking (~> 4.0.1)
+    - MJExtension (~> 3.4.1)
+    - xpjsip (~> 2.12.1)
   - MJExtension (3.4.1)
   - xpjsip (2.12.1)
 
 DEPENDENCIES:
-  - AFNetworking (= 4.0.1)
+  - AFNetworking (~> 4.0.1)
   - FGCallKit (from `../`)
-  - MJExtension (= 3.4.1)
-  - xpjsip (= 2.12.1)
+  - MJExtension (~> 3.4.1)
+  - xpjsip (~> 2.12.1)
 
 SPEC REPOS:
   trunk:
@@ -44,10 +44,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  FGCallKit: 1c3f145d53cbf3cbf8650e7c820d784d7404529d
+  FGCallKit: 4f48761a90cc2594f89d15c1f87606895e712537
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   xpjsip: cebea22365f2a6693cff576515381242eb839254
 
-PODFILE CHECKSUM: e8e9d594ceb47f727c06b7f377b557551d7da6c5
+PODFILE CHECKSUM: afbcf701f6df41c69b14c6f9f5b53a1c9e225072
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0
