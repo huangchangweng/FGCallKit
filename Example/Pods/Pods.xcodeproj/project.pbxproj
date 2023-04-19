@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		240B28065795B81A8DC88E8C19A0F96C /* xpjsip */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 99E3CCD73928A9CF7D264EACFDF1C1AA /* Build configuration list for PBXAggregateTarget "xpjsip" */;
+			buildConfigurationList = 1A9A05B83E9C9BC741AC41549BDDEEF4 /* Build configuration list for PBXAggregateTarget "xpjsip" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -19,138 +19,138 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0E3763BB188951FC9647A4430296685A /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0BE3E748C3032A41166E9EC9457AF4 /* MJPropertyType.m */; };
+		0050136D7E9C60EECAB247520505DAF5 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1A8C2FE339A4635465959439A2B3B /* NSObject+MJClass.m */; };
+		00861A4A0B4DE58F0151B5670378D303 /* GSNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFA2E6A87AEABB1F2A4DC2482F30C95 /* GSNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01FC858C29C0980DF5F418B2DA392A46 /* GSUserAgent+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABB3209FDD0F7AFC8AFC5D65EA4A052 /* GSUserAgent+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077F461F4A1CBA47E322B9DEA2CF7FA1 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = DE96E6BBB1BC4DFF076C04B2CD5FA089 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D00CC44B443CB7B3E39E0E2CE7482DE /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCB30604200EEA2BD2065EA0D8F3AF /* MJExtension-dummy.m */; };
+		0D82426FB357718A37ACDBF83496A6A3 /* GSConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1DA38593E9668AD2E8005E5F8743B /* GSConfiguration.m */; };
 		0FC2C7300D3DE350BD73741888D9A1A8 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCE3EA71AF6B9BA3CFECA2B163F055B /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1137E2E740F4F19B597176C13E722A35 /* FGAccountInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1564C67810931590D5090B9AD0EF8334 /* FGAccountInfoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12698C6D9AB02896E9EF0746446729AF /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E148F5787B55839FFA074671E1DA96E7 /* MJFoundation.m */; };
 		12CD0617360E8E0AA1EBBDD09B490DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		131D91B6FC1DFCBB1C5CF906393C80E3 /* FGAccountInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1564C67810931590D5090B9AD0EF8334 /* FGAccountInfoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16AA3006F6097986A4D85DB548B0950A /* GSCodecInfo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AC85AF6EE3B6A83E81D7D13967BAF4CF /* GSCodecInfo+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18AEFCE986FB74A0B6B092B3BA2267C6 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C14751E8035717997A65261E424CD /* UIImageView+AFNetworking.m */; };
-		194C4F0BA6088D7571BA9D7E7AAF0106 /* GSCodecInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4A159DB2CC8B533327569AEE27DA89 /* GSCodecInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BA12A46DAF7D6AF39E63E8807FFC267 /* FGKitInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BE2D3DEDF69BCF1852D54A753C3DC3 /* FGKitInfo.m */; };
-		1FED2B0F9A50851DF2F9871BD807597A /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D4333D9919DAC761E328017F8CE2E8 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198E1D12A85D2BBA102BEFCC90F0946B /* GSPJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E89A8EF35C53F7404DA900C4240B9D /* GSPJUtil.m */; };
+		1A6001DDD411A7B73BA72223D32F1518 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DDD2F21C7244C8571F24D93DA49340 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E6B93EAAE7DD41C4C5C0B4814B5DB49 /* GSCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A987228536850D9E7D423EAF95EADB0 /* GSCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F37E76AD7A350A9A30C3270E2DA72E3 /* GSPJUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8F1BCFAEF0ADA8A1335A7B7D33C177 /* GSPJUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22AD28E260EF21FECAAEF40B04E8E020 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAB4696685C231720FFC8DAFA9B0D20 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22CD30A76FB1C4B8C3EBBA6761FBBEDA /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F3449C47B05ADC8C455743E66E3A07 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23AEAF5E77D59B98AE79C57BAE746C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		24E379181B09924A67F2298185DE0BD3 /* FGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1C6F35E5F970C785D5D1666A7323A /* FGUtils.m */; };
+		23FC322AC21E7B2A8E9F68894E728B3A /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0BE3E748C3032A41166E9EC9457AF4 /* MJPropertyType.m */; };
+		27308722D27CAC80B17EB6EA6390D7EB /* FGKitInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9ADED66DF06F3DD66A759B9F52435E /* FGKitInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		27A1AA22D234973BA30D8493C546884C /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D200BF36CA7E4E276092A2FE54A5B76 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27AB52C7962046BC8963B2CD626F22BD /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C88CDAED0674A0494A9AD6B7F4C12665 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ABA9D7AC32CD28259AA94F083469CCB /* GSPJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E89A8EF35C53F7404DA900C4240B9D /* GSPJUtil.m */; };
-		2C13613C53A17B59F5446AD358B2C589 /* GSOutgoingCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 3616D82F3D2B00EFA853B3A24238EE7F /* GSOutgoingCall.m */; };
-		328922472D5F35DB82F01696BFAD3903 /* GSNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFA2E6A87AEABB1F2A4DC2482F30C95 /* GSNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A096F8E50D802DDDC60F0FC83CBF6C8 /* FGCallKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D90FCC6689CB855E5D28BCF907CC16DB /* FGCallKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32233DEA583FFACFFBB0FC09571F5276 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 828866CD3DA6CEC94B8975D72FA1FF84 /* MJPropertyKey.m */; };
 		33B9A195FDB315F18465CB1BA24D74A9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D949A9F1A0E7F8A20E8AD743304564D /* AFHTTPSessionManager.m */; };
-		33D30014926EDAD7D8F7CF6A970BC3C8 /* GSCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A987228536850D9E7D423EAF95EADB0 /* GSCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		347731E8D4C4F27FC53DDFAC590481D6 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 363AFD202C2B915E45BB504AE762975B /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		352B9CBEF7EC918A761311C873D78C21 /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D014B98A7E4B4E5DB2FB54112BF1C9F /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		389A39935C50E34710E4434A676DE30E /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD752DB43DFB9272A54EE2E093D60D2 /* MJExtensionConst.m */; };
+		3C0FDD10B858D09AAD2F6A4053261B00 /* FGCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 158B130AAC47D9C7154743B5CBD6A895 /* FGCompanyModel.m */; };
 		3E7A25BCE5BAC256FBBA56106C3192CD /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8029CAEEDDE42DC6B1529A1AA6A286 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF9E14A87908E492261E0A5E2BA9DAB /* GSOutgoingCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 90898DAC65B9F0D8FD4949BEC2A0342C /* GSOutgoingCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F0265C5710B0924283F74DFA773B1D7 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 828866CD3DA6CEC94B8975D72FA1FF84 /* MJPropertyKey.m */; };
-		43FAA5E235ED9E73C894DF71924E9F48 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DDD2F21C7244C8571F24D93DA49340 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ECBF80C08EEA5E5BFCB3E88DAF88361 /* GSConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C55B9E7CABAAF5E3B48F9FE0722C8251 /* GSConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F024D8F93BA903F73C718685C73FDBA /* FGCallKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9385CD0BCE2211152424468ADCC66A4 /* FGCallKit-dummy.m */; };
+		3F58EF608C27BF0339E42492030E3A82 /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D4333D9919DAC761E328017F8CE2E8 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42BE73E145F1574BCB0CC8882136F479 /* FGCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 5518639C4569357489EA33111DA058DF /* FGCall.m */; };
 		44AA0E648CF15A035B16BEB01E3175A6 /* Pods-FGCallKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5085A136BEC310FF6909109431A6A5BF /* Pods-FGCallKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		469F3DD9D66473D543C8F3D06A403921 /* FGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CD67207949D47D8C11C7AFFBF6BA3390 /* FGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46CF2142412EFF32AC7DDBF546929009 /* FGCallKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D90FCC6689CB855E5D28BCF907CC16DB /* FGCallKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46E91AAE33352DFC83E103E65E5BC234 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF7B05AA56D2687FD15836A84EF2DD /* NSObject+MJKeyValue.m */; };
-		4797F0EE6C382B2E5E9DBAA889958916 /* FGUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF85E2F94605725D685D5049768442 /* FGUserModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D61C68E27A232B53DAD956099251854 /* GSNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9574507B36235B79C6A98E163B885E /* GSNotifications.m */; };
-		4D910A778C59517C652574A7995FA508 /* GSRingback.m in Sources */ = {isa = PBXBuildFile; fileRef = C58A98EB25F17CDE61E4079B2B8D58DC /* GSRingback.m */; };
-		4DA8208ECE84CCDF0913772FEC53107E /* GSUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543F27E6F053510B8782DEA2BB14C00 /* GSUserAgent.m */; };
+		45ABA9C49163044F898C8064ADB9ADED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4A6F4E65E1234E04243D685F0A54C05C /* GSCall+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6146C7C03A15150416CDD325B327095E /* GSCall+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DCB59DE84A69063E9485E4D8BF8C637 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 244AB0CA7841CCA7978D54B5D335A94F /* AFNetworking-dummy.m */; };
-		51ABEA6C102D2F0CA85306F14836F14A /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = D91BBFA635144D40E4E875D9371965F2 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		522D8F2CFEBDF2054E585614B25897A1 /* FGCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 5518639C4569357489EA33111DA058DF /* FGCall.m */; };
+		4E12ED1A40525C0BD41E799F4E7395D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		52E68E9AFF4A9C20F05A07F3E55EAF59 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 989C2543A287298665F6EF75BAE61117 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54144079A4621B16CE8083231E3092E8 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 802940C24673B5F299F8E5BDDA5D6049 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		548F52ED659B7DEE6C2A9C7B81C5DF1D /* FGCallKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C5C3820D589136F2647E00F517FBD0 /* FGCallKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55043A6202814CD44DE230B827D7EBB2 /* GSDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 532F5D415570F1CFE294B6125B00793D /* GSDispatch.m */; };
-		5745BF199C5325970270EF0CA177EB92 /* FGUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00507C7076FCBB82CA5F070A5F2E0269 /* FGUserModel.m */; };
 		57744CA757400E7183DFC0D37EFB5214 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 230E30292D4F8211C1C3438B8FF353A4 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		584233A4CEC7C9AA382A1A43C26B87EE /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6201DE139362A7811B00FB26C80CD220 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B854E7CC192B704E0D75190AF0744ED /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8B68E90B60DA5F9F84438CF1569749 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AC05A3AD77FE57EDF72C8C10003AED /* PJSIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 42636C2D0C8E8ECA6486CCC6A60052DD /* PJSIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE27AF46E2DE81F61752081EDB7E52B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3F0BD83EE3AE8D5D494082200A266 /* AFSecurityPolicy.m */; };
-		62047459F0F29288E3CF9F78C8DF9EA5 /* GSAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5136E4F28D6A7215659BF79DA2812F /* GSAccount.m */; };
+		5CB8FC11D05F472A94CA6167B4B15901 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF7B05AA56D2687FD15836A84EF2DD /* NSObject+MJKeyValue.m */; };
+		607345435A48C0C6E3365074F37C39CB /* GSIncomingCall.h in Headers */ = {isa = PBXBuildFile; fileRef = E82449C0C65742D6C3473205CEAA2E8B /* GSIncomingCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63419018E7222B414E161CD480398E20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B48DF7DEED3D425546AFB2E168C3C2 /* AFNetworkReachabilityManager.m */; };
 		637243EE5807271030AE4D9741392852 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3605B1952CDAAFAC1D5CCCA7E55A52F0 /* AFURLSessionManager.m */; };
-		641E23FCA5C8974460B1E96B74205E1F /* GSIncomingCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 63789BAB63A4813075F1C919BD34794D /* GSIncomingCall.m */; };
+		64972B0F27E576FFDCB2A06715C64338 /* FGUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00507C7076FCBB82CA5F070A5F2E0269 /* FGUserModel.m */; };
 		65163D7E6539C8A1D65F5FCBA0E6EFD2 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF5D4FDB25440BAE06D3E6F920FB3C1 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		657D596F7ED1260403D4E064E6BF8CD1 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A46E8200C0FB10840E473151F8F70E /* WKWebView+AFNetworking.m */; };
-		69F0CF00650BE9F02FF28A37845E7827 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 136F68DEFD843C63C47D1FA324BD20FB /* Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D3FADB2A0D1DDB4B030ECE896F4ACF /* FGCallKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C5C3820D589136F2647E00F517FBD0 /* FGCallKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68653A226C9E32F15FEC2848DA7F4888 /* GSOutgoingCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 90898DAC65B9F0D8FD4949BEC2A0342C /* GSOutgoingCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 67299039811BEC3189D7C7BF774B2191 /* UIProgressView+AFNetworking.m */; };
 		6DB244706298D81730C5537279B7B635 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2486CFD472F574DF96DE7C9EF8D93F /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F62F38660B28866FC864593DD97339F /* FGAccountInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E18230C42E3377E16945D8165320B83 /* FGAccountInfoModel.m */; };
 		6FD62FD79B2B36310C7959A5DEF0573F /* Pods-FGCallKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 991CF2526E560BC45CE3AE7270D3B7B8 /* Pods-FGCallKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72A09FA4EACD2B014FC8D2AC5F371DFD /* GSConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1DA38593E9668AD2E8005E5F8743B /* GSConfiguration.m */; };
-		7B4D372DC9E2B2543495A6A609AFB329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		736223238C79AE608DE62E065B6E194B /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5B9A3F5F95361041E8DF7F83895C9F /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E53F8914540FCF16128A026BCE17972 /* GSDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = AC21A8B1FDDB389529F58A9A6F1ED46B /* GSDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EDB43E083025E7F713A51A0B06FF0EC /* Pods-FGCallKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 763C606EA5D8C3B871EFBD86494FA69E /* Pods-FGCallKit_Example-dummy.m */; };
 		801724F329AA434F8BB6A11E96E5805A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F43D79A7BE57D5E783468B8CBCEA936 /* AFAutoPurgingImageCache.m */; };
 		81C76941D750B3F226E07AE600A67FC6 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 320C7EC3F4FFF4E4D087399464121715 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		829CBF3CE6D408C53882F3030E009750 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3390E2230754FFE0D512AC763B086E25 /* NSObject+MJCoding.m */; };
-		83731349908D1BC2F153786083803A41 /* GSCall+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6146C7C03A15150416CDD325B327095E /* GSCall+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83E174CE7DA1A331201796ADD0BE584C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447107A042046E3F33B8FFEE39996C7 /* NSObject+MJProperty.m */; };
-		8ABFAFA000FB9F4DA3D916277DA1F9E0 /* GSUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3752DCC6871BAB6C29519074F4960D36 /* GSUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BAB11303CA6F067B09EB563ACAAD37A /* GSAccountConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 292BD5A08CB857ECB27D821822C4BB8E /* GSAccountConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C6733148356CFA07B204BA5D7797D28 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 944646A7856D9836238D3B68AF78BFDF /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ED269F62F913D2045808B1A9FD2C43B /* GSCodecInfo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AC85AF6EE3B6A83E81D7D13967BAF4CF /* GSCodecInfo+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FEBC77FBD1B91B65702A80531E89616 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5A002DB44382F5172F2FE035F736CA /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		826DBEB74804BC33BA68E7C2C49D04A6 /* FGKitInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BE2D3DEDF69BCF1852D54A753C3DC3 /* FGKitInfo.m */; };
+		8336A242B000FEC00E08189B34D53A19 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1AF7C4B8F10E77733C4635CF5B9AF /* NSString+MJExtension.m */; };
+		83B5250A11A8C7627475DEBA19A07CA4 /* GSRingback.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C0DC2904281F064FAAB5EC2EDAFE08 /* GSRingback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83B6EA7208572E9206E07D95B02B973D /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FE579C91EFD6BEE842F2042E1CC37 /* MJProperty.m */; };
+		83C7B6EDFE3C9A9197FA64ED2053A066 /* GSDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 532F5D415570F1CFE294B6125B00793D /* GSDispatch.m */; };
+		874B75404B2BADAB4B4B182FEB47E20A /* FGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CD67207949D47D8C11C7AFFBF6BA3390 /* FGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BD3CB292815B31BEF01A95775D435A6 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8B68E90B60DA5F9F84438CF1569749 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C9B93E9229A9CD724DA1829327E16E0 /* FGHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B5F10FF77C645B86796C9B1451716A /* FGHttpManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D88BBA11CE782C7C13FB9738D904454 /* GSRingback.m in Sources */ = {isa = PBXBuildFile; fileRef = C58A98EB25F17CDE61E4079B2B8D58DC /* GSRingback.m */; };
 		918AD88A49B79CD1B13BAD5415FE5621 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E9DAD5CFDA1EA57939D919059EDAB7 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		918F76773ADB663DBD0A8F1CA11F54DC /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1A8C2FE339A4635465959439A2B3B /* NSObject+MJClass.m */; };
-		93F3327BD43E3CFAA81434559F78BAE0 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = DE96E6BBB1BC4DFF076C04B2CD5FA089 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93FCA509395686F794AEA12C8165B2E4 /* GSIncomingCall.h in Headers */ = {isa = PBXBuildFile; fileRef = E82449C0C65742D6C3473205CEAA2E8B /* GSIncomingCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9416B7E5EC1AE66D42A1E9EFE5E66F11 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCB30604200EEA2BD2065EA0D8F3AF /* MJExtension-dummy.m */; };
-		942F4B9D93FFB408E5C78D0BE6275734 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FE579C91EFD6BEE842F2042E1CC37 /* MJProperty.m */; };
+		91DF95BFBE307943E4FEEC6847ADB157 /* GSCodecInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E7E56A470182FE3F4F881C42CD418 /* GSCodecInfo.m */; };
+		9624B45BE9D56C40E746F88B9DE44547 /* GSUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3752DCC6871BAB6C29519074F4960D36 /* GSUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		978D78A6E493ADBF80471E149F949FF0 /* GSAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = A11EA2182037734E78EDDA3EFDE11ED3 /* GSAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97EB8976E78AA2C17544A6453BC1EF04 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC4E207300F80BC371B5669AC5DAE1 /* AFURLResponseSerialization.m */; };
-		9938E14B888F7BE6A4F82B1425CCFC1E /* PJSIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 42636C2D0C8E8ECA6486CCC6A60052DD /* PJSIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C55EA69E0A9313C69252EF18A1EAFD8 /* FGHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B5F10FF77C645B86796C9B1451716A /* FGHttpManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		97EECD044F3C30B8C2E30E072C7612CE /* FGAccountInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E18230C42E3377E16945D8165320B83 /* FGAccountInfoModel.m */; };
+		9ED2589C5A083CDA8AABA9E502B081FE /* FGCallKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 355166D2214E5F4A2536F10A62948D9B /* FGCallKit.m */; };
 		9F5D472E0B58C95613C76C43148FC8B5 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFDFEB2729A65C454BEB79CDEF0D677 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0D35E656A4DF444CA1FF49A3FA8139F /* FGCallKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9385CD0BCE2211152424468ADCC66A4 /* FGCallKit-dummy.m */; };
+		9F8E8A108A27D10EF3CEE7D8CA095675 /* GSNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9574507B36235B79C6A98E163B885E /* GSNotifications.m */; };
+		A0B51FF19A0FAD9E7C805733B4D5BB37 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0960DB1AE2AFBE2A05F4E5AA2D904F /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A495E811947AB566B8E6078725C2D0DC /* Pods-FGCallKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025938F991F77167D9609F085E32BC5 /* Pods-FGCallKit_Tests-dummy.m */; };
-		A818BE0DCE123EE819094A558325D023 /* GSPJUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8F1BCFAEF0ADA8A1335A7B7D33C177 /* GSPJUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A898472A84172522FE1E1AF6EA4BAFDE /* GSRingback.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C0DC2904281F064FAAB5EC2EDAFE08 /* GSRingback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC10E419E6A21F517DA2832C019886C5 /* FGCallKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 355166D2214E5F4A2536F10A62948D9B /* FGCallKit.m */; };
+		A9536579CD04886FE4171DA6DA512DE5 /* GSAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5136E4F28D6A7215659BF79DA2812F /* GSAccount.m */; };
+		A984F8654764AED22FA90E9B99C0AE73 /* GSAccount+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A8492731EA02731F2B1E282CA8E6F4 /* GSAccount+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6B9EC4A2D912D6962BAAB8EC6C8E80 /* FGCompanyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DD05A15C00B267A63E537F2B920458 /* FGCompanyModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AC29EE5318026D0BAF479C904536378F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DF006C4C8D8577621049DFCFFF9211D8 /* UIRefreshControl+AFNetworking.m */; };
 		AD6158AF5746E99C7136F3ECA9423C63 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B53C634F6D767F4378F6FE5A1D9B4 /* UIActivityIndicatorView+AFNetworking.m */; };
-		B54D5D5F9CE6708530E8A1D54990472A /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD752DB43DFB9272A54EE2E093D60D2 /* MJExtensionConst.m */; };
+		AF656C154DBAD4F2162662B1824DC82C /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D014B98A7E4B4E5DB2FB54112BF1C9F /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B282EAE93637887D721128BC112B27E9 /* GSAccountConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 317E26E808AC1B622CCA0DF9306B79B8 /* GSAccountConfiguration.m */; };
+		B543B5E1C0ECB0FAA0D40D14940F0042 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 802940C24673B5F299F8E5BDDA5D6049 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7DA5AE2EE8808176A31F845A204C190 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A290E6A1C31B4A722AA038AD61B56863 /* UIButton+AFNetworking.m */; };
-		B84E630671943D74C671FA743283AF43 /* FGCompanyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DD05A15C00B267A63E537F2B920458 /* FGCompanyModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B8AD58C4501F99461CB07AC05DCB8705 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE77683B492170EB96494F5F5D8061D /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8B4A245FEFA2CE20339CA8CA8BE68EC /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BF888AB9AC15A70429D15B423F2C32B4 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA04AE66DA1F1737F13C7D83AB543BCB /* Gossip.h in Headers */ = {isa = PBXBuildFile; fileRef = 044C3DB321567C582C3D0164DEDC7227 /* Gossip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAB08D6748C698A6AA6DC7D6A2BFFE49 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D30636F39D10EE98F181758328270F1B /* AFNetworkActivityIndicatorManager.m */; };
-		C4175DB3B3A491190D34FD6884A1B695 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F3449C47B05ADC8C455743E66E3A07 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8209203D1E070BDF1C8A77809DC809C /* FGHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46936AF3A6EDD22DD501C5752762CB /* FGHttpManager.m */; };
-		CCF469874FBC79381B5742949D16DF76 /* GSDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = AC21A8B1FDDB389529F58A9A6F1ED46B /* GSDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAF2DC14E86D22F9B5A40F92747C29F1 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E148F5787B55839FFA074671E1DA96E7 /* MJFoundation.m */; };
+		C01DA071BFDA9BE0F692BE0DD0EC1516 /* FGHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46936AF3A6EDD22DD501C5752762CB /* FGHttpManager.m */; };
+		CB99FF7F79B81EABBB6981FB5F243C1A /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5A002DB44382F5172F2FE035F736CA /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDEF12A353FEBC8FE4E2EA0D3FFAC615 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FEA2E4438253F89D2316381E49327 /* AFURLRequestSerialization.m */; };
-		D491D17B3909ABAC0D67C664FE985180 /* GSConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C55B9E7CABAAF5E3B48F9FE0722C8251 /* GSConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D66EAE4D600AA3B2A54D2848C957E2B6 /* FGKitInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9ADED66DF06F3DD66A759B9F52435E /* FGKitInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DD465CF2A5BE4946543F4AB232E9DE5A /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5B9A3F5F95361041E8DF7F83895C9F /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFB0D8FED5A56F3D51DE240D42EF7C21 /* GSCodecInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E7E56A470182FE3F4F881C42CD418 /* GSCodecInfo.m */; };
-		E105DD2669ABC0B44F3E06729E947E1D /* GSCall.m in Sources */ = {isa = PBXBuildFile; fileRef = F012A1723B7BA8C1454C03E10D2E1767 /* GSCall.m */; };
-		E20CF256715A2A2E7F3E8279081CE7DA /* FGCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 158B130AAC47D9C7154743B5CBD6A895 /* FGCompanyModel.m */; };
+		D05278EEC0D51C6FA672AF77D2F2590A /* GSUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543F27E6F053510B8782DEA2BB14C00 /* GSUserAgent.m */; };
+		D35690F2C1D1A6D6E4A68537462B4829 /* FGUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF85E2F94605725D685D5049768442 /* FGUserModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D77506ADB42FCA9F47BDD6F4B1A60C0B /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = D91BBFA635144D40E4E875D9371965F2 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89E58FED26A037CF5C5785E3999579C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447107A042046E3F33B8FFEE39996C7 /* NSObject+MJProperty.m */; };
+		DCDBF7AD180BF137CC6337B0AC1FA5B4 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 944646A7856D9836238D3B68AF78BFDF /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3AB4B0DDE1BE124BA3A03EC0C599A9 /* GSIncomingCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 63789BAB63A4813075F1C919BD34794D /* GSIncomingCall.m */; };
+		E035860E9437A9FFDD3B8353399C496F /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3390E2230754FFE0D512AC763B086E25 /* NSObject+MJCoding.m */; };
 		E6162542A29E9FEE8E78ED058859A509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E6372737D9B027D4D4D26DC0B9D0DF3F /* Gossip.h in Headers */ = {isa = PBXBuildFile; fileRef = 044C3DB321567C582C3D0164DEDC7227 /* Gossip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8372DA8FDA0830EF5FF160493C0B37A /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3DE5CEC2E613AA27C3C40D3D8D14E2 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8BF27434498A5EFF6C57CB483AA4680 /* FGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1C6F35E5F970C785D5D1666A7323A /* FGUtils.m */; };
+		E8CE6CFA741C52BC011C78E45ADEF6B8 /* GSOutgoingCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 3616D82F3D2B00EFA853B3A24238EE7F /* GSOutgoingCall.m */; };
+		EC12C8E618E938C84B696CAD4D080C8E /* GSCodecInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4A159DB2CC8B533327569AEE27DA89 /* GSCodecInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED0B81FF1DEC0B138947EA93D22E5A4E /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B20E197D5FE6E073F8CC359D89AD7F /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE3B8613CDD20D58260C22D21BC61F38 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB4F15BC4C39CF5F9333A8E5CB10A93 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F035184B97FFC509358ED123023A0DF5 /* GSUserAgent+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABB3209FDD0F7AFC8AFC5D65EA4A052 /* GSUserAgent+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4DB3BFD0CA73F384BDB00FCE5AD74F5 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1AF7C4B8F10E77733C4635CF5B9AF /* NSString+MJExtension.m */; };
-		F5B76E80E9C9DFC6A0C04C553C952161 /* FGCall.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA6564982956AEDD373799648278728 /* FGCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6B8EFB6A90BBC5D3D51CCFB925FF3CB /* GSAccountConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 317E26E808AC1B622CCA0DF9306B79B8 /* GSAccountConfiguration.m */; };
-		F8BE13580E0E3D44DF7CEB5160190038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF22215C1CD03487305B9B6798E23352 /* GSAccountConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 292BD5A08CB857ECB27D821822C4BB8E /* GSAccountConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F294CB5EBF298E7100D016A7F957A892 /* GSCall.m in Sources */ = {isa = PBXBuildFile; fileRef = F012A1723B7BA8C1454C03E10D2E1767 /* GSCall.m */; };
+		F4C63D6DD6C520466DEAC54700291BCD /* FGCall.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA6564982956AEDD373799648278728 /* FGCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B0A3B9E208E8510DA21F994FD622D5 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 136F68DEFD843C63C47D1FA324BD20FB /* Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA57C7B9116769DBBCAEE173060683A3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04293F1FCFE41E4AD548474589688E /* AFImageDownloader.m */; };
-		FB0F274DD5892CD9F1034F326CED1640 /* GSAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = A11EA2182037734E78EDDA3EFDE11ED3 /* GSAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDF6B8BA0A9AB6F9F36F1BAA6326CE39 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0960DB1AE2AFBE2A05F4E5AA2D904F /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFFEB3A0905D84B6AF0E756C36C39EF3 /* GSAccount+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A8492731EA02731F2B1E282CA8E6F4 /* GSAccount+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0BFB1E19AAD5493FDC26DA765C690BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 240B28065795B81A8DC88E8C19A0F96C;
+			remoteInfo = xpjsip;
+		};
 		34482F2D1C965BD4B0DE57DDB55F851E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3587D39D4ACCC05478F99A0251C08006;
 			remoteInfo = "Pods-FGCallKit_Example";
-		};
-		39E4F9DE2B5CD0B6C4D78433A420C485 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
-			remoteInfo = MJExtension;
 		};
 		55CBF33886EE9FDD6CD05C97A34E42D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -159,7 +159,7 @@
 			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
 			remoteInfo = MJExtension;
 		};
-		B19177C9B1B11658AFA596BE8BA3131B /* PBXContainerItemProxy */ = {
+		60C3BE306372917AE6B2840DE3058984 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -180,19 +180,19 @@
 			remoteGlobalIDString = 240B28065795B81A8DC88E8C19A0F96C;
 			remoteInfo = xpjsip;
 		};
-		DEE846C428C29599E85D9C37C4BFFF70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 240B28065795B81A8DC88E8C19A0F96C;
-			remoteInfo = xpjsip;
-		};
 		E109984ED6E0F42B74BB6C33A56B6C7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 354DC7311A552181B62BA37B4124E64D;
 			remoteInfo = FGCallKit;
+		};
+		E2E9B5C48718052CE76D63578C7098B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -689,11 +689,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B0C72AD80E4B14C9C24CF09A7A5A169 /* Frameworks */ = {
+		3B7127F6B44CEEF8F30BC4DB7F8F5004 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4D372DC9E2B2543495A6A609AFB329 /* Foundation.framework in Frameworks */,
+				45ABA9C49163044F898C8064ADB9ADED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,11 +713,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDFDE578142518E4BF6AC7F761ECAAEC /* Frameworks */ = {
+		DC367F82C1605A5B76EF556F71D00E56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8BE13580E0E3D44DF7CEB5160190038 /* Foundation.framework in Frameworks */,
+				4E12ED1A40525C0BD41E799F4E7395D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1417,6 +1417,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		60287163EB59B521E210B3BE3F571772 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131D91B6FC1DFCBB1C5CF906393C80E3 /* FGAccountInfoModel.h in Headers */,
+				F4C63D6DD6C520466DEAC54700291BCD /* FGCall.h in Headers */,
+				2A096F8E50D802DDDC60F0FC83CBF6C8 /* FGCallKit.h in Headers */,
+				66D3FADB2A0D1DDB4B030ECE896F4ACF /* FGCallKit-umbrella.h in Headers */,
+				AA6B9EC4A2D912D6962BAAB8EC6C8E80 /* FGCompanyModel.h in Headers */,
+				8C9B93E9229A9CD724DA1829327E16E0 /* FGHttpManager.h in Headers */,
+				27308722D27CAC80B17EB6EA6390D7EB /* FGKitInfo.h in Headers */,
+				D35690F2C1D1A6D6E4A68537462B4829 /* FGUserModel.h in Headers */,
+				874B75404B2BADAB4B4B182FEB47E20A /* FGUtils.h in Headers */,
+				BA04AE66DA1F1737F13C7D83AB543BCB /* Gossip.h in Headers */,
+				978D78A6E493ADBF80471E149F949FF0 /* GSAccount.h in Headers */,
+				A984F8654764AED22FA90E9B99C0AE73 /* GSAccount+Private.h in Headers */,
+				EF22215C1CD03487305B9B6798E23352 /* GSAccountConfiguration.h in Headers */,
+				1E6B93EAAE7DD41C4C5C0B4814B5DB49 /* GSCall.h in Headers */,
+				4A6F4E65E1234E04243D685F0A54C05C /* GSCall+Private.h in Headers */,
+				EC12C8E618E938C84B696CAD4D080C8E /* GSCodecInfo.h in Headers */,
+				16AA3006F6097986A4D85DB548B0950A /* GSCodecInfo+Private.h in Headers */,
+				3ECBF80C08EEA5E5BFCB3E88DAF88361 /* GSConfiguration.h in Headers */,
+				7E53F8914540FCF16128A026BCE17972 /* GSDispatch.h in Headers */,
+				607345435A48C0C6E3365074F37C39CB /* GSIncomingCall.h in Headers */,
+				00861A4A0B4DE58F0151B5670378D303 /* GSNotifications.h in Headers */,
+				68653A226C9E32F15FEC2848DA7F4888 /* GSOutgoingCall.h in Headers */,
+				1F37E76AD7A350A9A30C3270E2DA72E3 /* GSPJUtil.h in Headers */,
+				83B5250A11A8C7627475DEBA19A07CA4 /* GSRingback.h in Headers */,
+				9624B45BE9D56C40E746F88B9DE44547 /* GSUserAgent.h in Headers */,
+				01FC858C29C0980DF5F418B2DA392A46 /* GSUserAgent+Private.h in Headers */,
+				58AC05A3AD77FE57EDF72C8C10003AED /* PJSIP.h in Headers */,
+				F5B0A3B9E208E8510DA21F994FD622D5 /* Util.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		611427CBC37B16A455BA30DDD0F9104D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1443,25 +1478,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90D745B8F0357C57ADCC4648EE35E541 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B854E7CC192B704E0D75190AF0744ED /* MJExtension.h in Headers */,
-				1FED2B0F9A50851DF2F9871BD807597A /* MJExtension-umbrella.h in Headers */,
-				DD465CF2A5BE4946543F4AB232E9DE5A /* MJExtensionConst.h in Headers */,
-				FDF6B8BA0A9AB6F9F36F1BAA6326CE39 /* MJFoundation.h in Headers */,
-				54144079A4621B16CE8083231E3092E8 /* MJProperty.h in Headers */,
-				51ABEA6C102D2F0CA85306F14836F14A /* MJPropertyKey.h in Headers */,
-				93F3327BD43E3CFAA81434559F78BAE0 /* MJPropertyType.h in Headers */,
-				8FEBC77FBD1B91B65702A80531E89616 /* NSObject+MJClass.h in Headers */,
-				C4175DB3B3A491190D34FD6884A1B695 /* NSObject+MJCoding.h in Headers */,
-				352B9CBEF7EC918A761311C873D78C21 /* NSObject+MJKeyValue.h in Headers */,
-				8C6733148356CFA07B204BA5D7797D28 /* NSObject+MJProperty.h in Headers */,
-				43FAA5E235ED9E73C894DF71924E9F48 /* NSString+MJExtension.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A3DE2CCB2BFE2ADB5F43B46E93D59BAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1478,38 +1494,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD1DD62B7567919BB36D0C84EE4717AC /* Headers */ = {
+		FC7CD242D21E70FA55A7FB20C4215853 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1137E2E740F4F19B597176C13E722A35 /* FGAccountInfoModel.h in Headers */,
-				F5B76E80E9C9DFC6A0C04C553C952161 /* FGCall.h in Headers */,
-				46CF2142412EFF32AC7DDBF546929009 /* FGCallKit.h in Headers */,
-				548F52ED659B7DEE6C2A9C7B81C5DF1D /* FGCallKit-umbrella.h in Headers */,
-				B84E630671943D74C671FA743283AF43 /* FGCompanyModel.h in Headers */,
-				9C55EA69E0A9313C69252EF18A1EAFD8 /* FGHttpManager.h in Headers */,
-				D66EAE4D600AA3B2A54D2848C957E2B6 /* FGKitInfo.h in Headers */,
-				4797F0EE6C382B2E5E9DBAA889958916 /* FGUserModel.h in Headers */,
-				469F3DD9D66473D543C8F3D06A403921 /* FGUtils.h in Headers */,
-				E6372737D9B027D4D4D26DC0B9D0DF3F /* Gossip.h in Headers */,
-				FB0F274DD5892CD9F1034F326CED1640 /* GSAccount.h in Headers */,
-				FFFEB3A0905D84B6AF0E756C36C39EF3 /* GSAccount+Private.h in Headers */,
-				8BAB11303CA6F067B09EB563ACAAD37A /* GSAccountConfiguration.h in Headers */,
-				33D30014926EDAD7D8F7CF6A970BC3C8 /* GSCall.h in Headers */,
-				83731349908D1BC2F153786083803A41 /* GSCall+Private.h in Headers */,
-				194C4F0BA6088D7571BA9D7E7AAF0106 /* GSCodecInfo.h in Headers */,
-				8ED269F62F913D2045808B1A9FD2C43B /* GSCodecInfo+Private.h in Headers */,
-				D491D17B3909ABAC0D67C664FE985180 /* GSConfiguration.h in Headers */,
-				CCF469874FBC79381B5742949D16DF76 /* GSDispatch.h in Headers */,
-				93FCA509395686F794AEA12C8165B2E4 /* GSIncomingCall.h in Headers */,
-				328922472D5F35DB82F01696BFAD3903 /* GSNotifications.h in Headers */,
-				3EF9E14A87908E492261E0A5E2BA9DAB /* GSOutgoingCall.h in Headers */,
-				A818BE0DCE123EE819094A558325D023 /* GSPJUtil.h in Headers */,
-				A898472A84172522FE1E1AF6EA4BAFDE /* GSRingback.h in Headers */,
-				8ABFAFA000FB9F4DA3D916277DA1F9E0 /* GSUserAgent.h in Headers */,
-				F035184B97FFC509358ED123023A0DF5 /* GSUserAgent+Private.h in Headers */,
-				9938E14B888F7BE6A4F82B1425CCFC1E /* PJSIP.h in Headers */,
-				69F0CF00650BE9F02FF28A37845E7827 /* Util.h in Headers */,
+				8BD3CB292815B31BEF01A95775D435A6 /* MJExtension.h in Headers */,
+				3F58EF608C27BF0339E42492030E3A82 /* MJExtension-umbrella.h in Headers */,
+				736223238C79AE608DE62E065B6E194B /* MJExtensionConst.h in Headers */,
+				A0B51FF19A0FAD9E7C805733B4D5BB37 /* MJFoundation.h in Headers */,
+				B543B5E1C0ECB0FAA0D40D14940F0042 /* MJProperty.h in Headers */,
+				D77506ADB42FCA9F47BDD6F4B1A60C0B /* MJPropertyKey.h in Headers */,
+				077F461F4A1CBA47E322B9DEA2CF7FA1 /* MJPropertyType.h in Headers */,
+				CB99FF7F79B81EABBB6981FB5F243C1A /* NSObject+MJClass.h in Headers */,
+				22CD30A76FB1C4B8C3EBBA6761FBBEDA /* NSObject+MJCoding.h in Headers */,
+				AF656C154DBAD4F2162662B1824DC82C /* NSObject+MJKeyValue.h in Headers */,
+				DCDBF7AD180BF137CC6337B0AC1FA5B4 /* NSObject+MJProperty.h in Headers */,
+				1A6001DDD411A7B73BA72223D32F1518 /* NSString+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1555,19 +1555,19 @@
 		};
 		354DC7311A552181B62BA37B4124E64D /* FGCallKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99208EA82033667B9E296DBA94F818AE /* Build configuration list for PBXNativeTarget "FGCallKit" */;
+			buildConfigurationList = 136A93C3B7209035B9926E7710060B4E /* Build configuration list for PBXNativeTarget "FGCallKit" */;
 			buildPhases = (
-				DD1DD62B7567919BB36D0C84EE4717AC /* Headers */,
-				9A461F61FB0159498053C07DE2BD5338 /* Sources */,
-				1B0C72AD80E4B14C9C24CF09A7A5A169 /* Frameworks */,
-				DA0EAE8714AFE5B13C21CEBCF2DDFCA3 /* Resources */,
+				60287163EB59B521E210B3BE3F571772 /* Headers */,
+				4D40A5182970FBFA9F9351E121B21C4A /* Sources */,
+				3B7127F6B44CEEF8F30BC4DB7F8F5004 /* Frameworks */,
+				7F304E98D744E9F3CE6A9EDE5454D38F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				53D1FC82CC5346145FAD7F2475FB02D9 /* PBXTargetDependency */,
-				319F39246FCC24E170DDBE8F7D547C53 /* PBXTargetDependency */,
-				D7F2E7C56710C331326F27F0F4D27DEB /* PBXTargetDependency */,
+				A36A4665055FAE8AF9B17A92B0DF4316 /* PBXTargetDependency */,
+				E4DAF93ACB256DF13B2E523200A0ED52 /* PBXTargetDependency */,
+				9A5DD0809BFB2C67B21D314E872A54CF /* PBXTargetDependency */,
 			);
 			name = FGCallKit;
 			productName = FGCallKit;
@@ -1598,12 +1598,12 @@
 		};
 		4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90DD09944BAE70AC424B55B2F424D5C3 /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildConfigurationList = 22F2D9A75A630AD4B787B638BCD5E42A /* Build configuration list for PBXNativeTarget "MJExtension" */;
 			buildPhases = (
-				90D745B8F0357C57ADCC4648EE35E541 /* Headers */,
-				F7B2EEBA076B4EAD45816460A517060B /* Sources */,
-				FDFDE578142518E4BF6AC7F761ECAAEC /* Frameworks */,
-				64D4D72DC7F2C1603D5D8A3D4D30160E /* Resources */,
+				FC7CD242D21E70FA55A7FB20C4215853 /* Headers */,
+				A11F223AE1D6DC26699154F28FDA5926 /* Sources */,
+				DC367F82C1605A5B76EF556F71D00E56 /* Frameworks */,
+				6D0B1CCBAF0B1C7FFCBB0ED8782F67EE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1654,7 +1654,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64D4D72DC7F2C1603D5D8A3D4D30160E /* Resources */ = {
+		6D0B1CCBAF0B1C7FFCBB0ED8782F67EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F304E98D744E9F3CE6A9EDE5454D38F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1675,41 +1682,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0EAE8714AFE5B13C21CEBCF2DDFCA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A461F61FB0159498053C07DE2BD5338 /* Sources */ = {
+		4D40A5182970FBFA9F9351E121B21C4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F62F38660B28866FC864593DD97339F /* FGAccountInfoModel.m in Sources */,
-				522D8F2CFEBDF2054E585614B25897A1 /* FGCall.m in Sources */,
-				AC10E419E6A21F517DA2832C019886C5 /* FGCallKit.m in Sources */,
-				A0D35E656A4DF444CA1FF49A3FA8139F /* FGCallKit-dummy.m in Sources */,
-				E20CF256715A2A2E7F3E8279081CE7DA /* FGCompanyModel.m in Sources */,
-				C8209203D1E070BDF1C8A77809DC809C /* FGHttpManager.m in Sources */,
-				1BA12A46DAF7D6AF39E63E8807FFC267 /* FGKitInfo.m in Sources */,
-				5745BF199C5325970270EF0CA177EB92 /* FGUserModel.m in Sources */,
-				24E379181B09924A67F2298185DE0BD3 /* FGUtils.m in Sources */,
-				62047459F0F29288E3CF9F78C8DF9EA5 /* GSAccount.m in Sources */,
-				F6B8EFB6A90BBC5D3D51CCFB925FF3CB /* GSAccountConfiguration.m in Sources */,
-				E105DD2669ABC0B44F3E06729E947E1D /* GSCall.m in Sources */,
-				DFB0D8FED5A56F3D51DE240D42EF7C21 /* GSCodecInfo.m in Sources */,
-				72A09FA4EACD2B014FC8D2AC5F371DFD /* GSConfiguration.m in Sources */,
-				55043A6202814CD44DE230B827D7EBB2 /* GSDispatch.m in Sources */,
-				641E23FCA5C8974460B1E96B74205E1F /* GSIncomingCall.m in Sources */,
-				4D61C68E27A232B53DAD956099251854 /* GSNotifications.m in Sources */,
-				2C13613C53A17B59F5446AD358B2C589 /* GSOutgoingCall.m in Sources */,
-				2ABA9D7AC32CD28259AA94F083469CCB /* GSPJUtil.m in Sources */,
-				4D910A778C59517C652574A7995FA508 /* GSRingback.m in Sources */,
-				4DA8208ECE84CCDF0913772FEC53107E /* GSUserAgent.m in Sources */,
+				97EECD044F3C30B8C2E30E072C7612CE /* FGAccountInfoModel.m in Sources */,
+				42BE73E145F1574BCB0CC8882136F479 /* FGCall.m in Sources */,
+				9ED2589C5A083CDA8AABA9E502B081FE /* FGCallKit.m in Sources */,
+				3F024D8F93BA903F73C718685C73FDBA /* FGCallKit-dummy.m in Sources */,
+				3C0FDD10B858D09AAD2F6A4053261B00 /* FGCompanyModel.m in Sources */,
+				C01DA071BFDA9BE0F692BE0DD0EC1516 /* FGHttpManager.m in Sources */,
+				826DBEB74804BC33BA68E7C2C49D04A6 /* FGKitInfo.m in Sources */,
+				64972B0F27E576FFDCB2A06715C64338 /* FGUserModel.m in Sources */,
+				E8BF27434498A5EFF6C57CB483AA4680 /* FGUtils.m in Sources */,
+				A9536579CD04886FE4171DA6DA512DE5 /* GSAccount.m in Sources */,
+				B282EAE93637887D721128BC112B27E9 /* GSAccountConfiguration.m in Sources */,
+				F294CB5EBF298E7100D016A7F957A892 /* GSCall.m in Sources */,
+				91DF95BFBE307943E4FEEC6847ADB157 /* GSCodecInfo.m in Sources */,
+				0D82426FB357718A37ACDBF83496A6A3 /* GSConfiguration.m in Sources */,
+				83C7B6EDFE3C9A9197FA64ED2053A066 /* GSDispatch.m in Sources */,
+				DE3AB4B0DDE1BE124BA3A03EC0C599A9 /* GSIncomingCall.m in Sources */,
+				9F8E8A108A27D10EF3CEE7D8CA095675 /* GSNotifications.m in Sources */,
+				E8CE6CFA741C52BC011C78E45ADEF6B8 /* GSOutgoingCall.m in Sources */,
+				198E1D12A85D2BBA102BEFCC90F0946B /* GSPJUtil.m in Sources */,
+				8D88BBA11CE782C7C13FB9738D904454 /* GSRingback.m in Sources */,
+				D05278EEC0D51C6FA672AF77D2F2590A /* GSUserAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11F223AE1D6DC26699154F28FDA5926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D00CC44B443CB7B3E39E0E2CE7482DE /* MJExtension-dummy.m in Sources */,
+				389A39935C50E34710E4434A676DE30E /* MJExtensionConst.m in Sources */,
+				BAF2DC14E86D22F9B5A40F92747C29F1 /* MJFoundation.m in Sources */,
+				83B6EA7208572E9206E07D95B02B973D /* MJProperty.m in Sources */,
+				32233DEA583FFACFFBB0FC09571F5276 /* MJPropertyKey.m in Sources */,
+				23FC322AC21E7B2A8E9F68894E728B3A /* MJPropertyType.m in Sources */,
+				0050136D7E9C60EECAB247520505DAF5 /* NSObject+MJClass.m in Sources */,
+				E035860E9437A9FFDD3B8353399C496F /* NSObject+MJCoding.m in Sources */,
+				5CB8FC11D05F472A94CA6167B4B15901 /* NSObject+MJKeyValue.m in Sources */,
+				D89E58FED26A037CF5C5785E3999579C /* NSObject+MJProperty.m in Sources */,
+				8336A242B000FEC00E08189B34D53A19 /* NSString+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1752,24 +1770,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7B2EEBA076B4EAD45816460A517060B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9416B7E5EC1AE66D42A1E9EFE5E66F11 /* MJExtension-dummy.m in Sources */,
-				B54D5D5F9CE6708530E8A1D54990472A /* MJExtensionConst.m in Sources */,
-				12698C6D9AB02896E9EF0746446729AF /* MJFoundation.m in Sources */,
-				942F4B9D93FFB408E5C78D0BE6275734 /* MJProperty.m in Sources */,
-				3F0265C5710B0924283F74DFA773B1D7 /* MJPropertyKey.m in Sources */,
-				0E3763BB188951FC9647A4430296685A /* MJPropertyType.m in Sources */,
-				918F76773ADB663DBD0A8F1CA11F54DC /* NSObject+MJClass.m in Sources */,
-				829CBF3CE6D408C53882F3030E009750 /* NSObject+MJCoding.m in Sources */,
-				46E91AAE33352DFC83E103E65E5BC234 /* NSObject+MJKeyValue.m in Sources */,
-				83E174CE7DA1A331201796ADD0BE584C /* NSObject+MJProperty.m in Sources */,
-				F4DB3BFD0CA73F384BDB00FCE5AD74F5 /* NSString+MJExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1779,23 +1779,11 @@
 			target = 3587D39D4ACCC05478F99A0251C08006 /* Pods-FGCallKit_Example */;
 			targetProxy = 34482F2D1C965BD4B0DE57DDB55F851E /* PBXContainerItemProxy */;
 		};
-		319F39246FCC24E170DDBE8F7D547C53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJExtension;
-			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = 39E4F9DE2B5CD0B6C4D78433A420C485 /* PBXContainerItemProxy */;
-		};
 		4DD776EC6CA8C7DF6781252626B38CFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FGCallKit;
 			target = 354DC7311A552181B62BA37B4124E64D /* FGCallKit */;
 			targetProxy = E109984ED6E0F42B74BB6C33A56B6C7A /* PBXContainerItemProxy */;
-		};
-		53D1FC82CC5346145FAD7F2475FB02D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = B19177C9B1B11658AFA596BE8BA3131B /* PBXContainerItemProxy */;
 		};
 		7828A2BD59F4FC2421EB46A926047D0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1809,11 +1797,23 @@
 			target = 240B28065795B81A8DC88E8C19A0F96C /* xpjsip */;
 			targetProxy = C3C62C7F22BB17F2E99D8146FA118E96 /* PBXContainerItemProxy */;
 		};
-		D7F2E7C56710C331326F27F0F4D27DEB /* PBXTargetDependency */ = {
+		9A5DD0809BFB2C67B21D314E872A54CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = xpjsip;
 			target = 240B28065795B81A8DC88E8C19A0F96C /* xpjsip */;
-			targetProxy = DEE846C428C29599E85D9C37C4BFFF70 /* PBXContainerItemProxy */;
+			targetProxy = 0BFB1E19AAD5493FDC26DA765C690BE7 /* PBXContainerItemProxy */;
+		};
+		A36A4665055FAE8AF9B17A92B0DF4316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 60C3BE306372917AE6B2840DE3058984 /* PBXContainerItemProxy */;
+		};
+		E4DAF93ACB256DF13B2E523200A0ED52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = E2E9B5C48718052CE76D63578C7098B8 /* PBXContainerItemProxy */;
 		};
 		F689B62A872C8B809D468E1FA1233F23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1824,21 +1824,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		219B4A86248EF05C2A9AD37425AED52D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5A648B7B82EDB15161F8181EFA95E7B /* xpjsip.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2A142EF506A29189F85915273E414209 /* Release */ = {
+		5187ADAF28C7A95AA8EB7C0AB482BE8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C25D6ECCC7228C74DEE1687FF6C897D /* MJExtension.release.xcconfig */;
 			buildSettings = {
@@ -1868,36 +1854,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		30813BD3FC59591A0772DE491C9CA841 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF427A241956A0C894856B8862DF3D05 /* MJExtension.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
-				PRODUCT_MODULE_NAME = MJExtension;
-				PRODUCT_NAME = MJExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		5545729181DE30CE15E3CCDA0B0A1E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1997,20 +1953,35 @@
 			};
 			name = Release;
 		};
-		6A3A677A83172E3807CCFA17C98A5418 /* Release */ = {
+		7459ACCB2A83D05E3EB48EF848F389D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418F829AE9B912C0612E181AF2A043EB /* xpjsip.release.xcconfig */;
+			baseConfigurationReference = FF427A241956A0C894856B8862DF3D05 /* MJExtension.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		79603F39B8F553113B5E04EEF9283235 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2104,71 +2075,6 @@
 			};
 			name = Release;
 		};
-		8177ED58F597DF69F5FF218E03C82A4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EC284B38EDA943B3BB7624F5B27CAA5 /* FGCallKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FGCallKit/FGCallKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FGCallKit/FGCallKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FGCallKit/FGCallKit.modulemap";
-				PRODUCT_MODULE_NAME = FGCallKit;
-				PRODUCT_NAME = FGCallKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		95864DFB02A91B5E904FB7A4B856D172 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBA240CC5C27A37D6BA20A33E76722BA /* FGCallKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FGCallKit/FGCallKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FGCallKit/FGCallKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FGCallKit/FGCallKit.modulemap";
-				PRODUCT_MODULE_NAME = FGCallKit;
-				PRODUCT_NAME = FGCallKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A2BCD392BC79AABD2EBB8F391BEF302D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E8FF64925AA2148C6486FFCB9817EAB /* Pods-FGCallKit_Example.debug.xcconfig */;
@@ -2196,6 +2102,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8303BEFB492CC45C417320EF9FAE829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA240CC5C27A37D6BA20A33E76722BA /* FGCallKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FGCallKit/FGCallKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGCallKit/FGCallKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FGCallKit/FGCallKit.modulemap";
+				PRODUCT_MODULE_NAME = FGCallKit;
+				PRODUCT_NAME = FGCallKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2302,9 +2240,98 @@
 			};
 			name = Release;
 		};
+		EA835B217E1C970F1A24C5E33B095E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC284B38EDA943B3BB7624F5B27CAA5 /* FGCallKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FGCallKit/FGCallKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGCallKit/FGCallKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FGCallKit/FGCallKit.modulemap";
+				PRODUCT_MODULE_NAME = FGCallKit;
+				PRODUCT_NAME = FGCallKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9B6C25B668A8D8FBAEE6F232AAC5EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A648B7B82EDB15161F8181EFA95E7B /* xpjsip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC779B52274D94DF3D2F550F8628284C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418F829AE9B912C0612E181AF2A043EB /* xpjsip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		136A93C3B7209035B9926E7710060B4E /* Build configuration list for PBXNativeTarget "FGCallKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8303BEFB492CC45C417320EF9FAE829 /* Debug */,
+				EA835B217E1C970F1A24C5E33B095E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9A05B83E9C9BC741AC41549BDDEEF4 /* Build configuration list for PBXAggregateTarget "xpjsip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B6C25B668A8D8FBAEE6F232AAC5EB1 /* Debug */,
+				FC779B52274D94DF3D2F550F8628284C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F2D9A75A630AD4B787B638BCD5E42A /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7459ACCB2A83D05E3EB48EF848F389D6 /* Debug */,
+				5187ADAF28C7A95AA8EB7C0AB482BE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2328,33 +2355,6 @@
 			buildConfigurations = (
 				A2BCD392BC79AABD2EBB8F391BEF302D /* Debug */,
 				D8088C08EABC071653A739625D77F48B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90DD09944BAE70AC424B55B2F424D5C3 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30813BD3FC59591A0772DE491C9CA841 /* Debug */,
-				2A142EF506A29189F85915273E414209 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		99208EA82033667B9E296DBA94F818AE /* Build configuration list for PBXNativeTarget "FGCallKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95864DFB02A91B5E904FB7A4B856D172 /* Debug */,
-				8177ED58F597DF69F5FF218E03C82A4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		99E3CCD73928A9CF7D264EACFDF1C1AA /* Build configuration list for PBXAggregateTarget "xpjsip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				219B4A86248EF05C2A9AD37425AED52D /* Debug */,
-				6A3A677A83172E3807CCFA17C98A5418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
