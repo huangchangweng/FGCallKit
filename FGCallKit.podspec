@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGCallKit'
-  s.version          = '0.9.0'
+  s.version          = '0.9.1'
   s.summary          = '飞鸽传书语音通话SDK'
 
 # This description is used to generate tags and improve search results.
@@ -46,6 +46,9 @@ TODO: Add long description of the pod here.
   s.static_framework = true
 
   s.public_header_files = ['FGCallKit/Classes/FGCallKit.h', 'FGCallKit/Classes/FGCall.h']
+  
+  # 依赖系统库
+  s.frameworks = "Foundation", "UIKit"
  
 #  s.dependency 'pjsip', '2.9.0.2'
   s.dependency 'xpjsip', '~>2.12.1'
