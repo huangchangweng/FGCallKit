@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = xpjsip;
+			productName = xpjsip;
 		};
 /* End PBXAggregateTarget section */
 
@@ -466,7 +467,7 @@
 		9C637128F234DD093529DF8321F155F9 /* vpx_packetizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vpx_packetizer.h; path = "xpjsip/include/pjmedia-codec/vpx_packetizer.h"; sourceTree = "<group>"; };
 		9D496065D27F513405C29FF19BD6D7CB /* audiotest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audiotest.h; path = "xpjsip/include/pjmedia-audiodev/audiotest.h"; sourceTree = "<group>"; };
 		9D8CC068CBF9A09AF032F3BC6D0DEE7C /* publish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publish.h; path = "xpjsip/include/pjsip-simple/publish.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD84306E7D63B7E93F00C2E4D4C89C7 /* pjlib-util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "pjlib-util.h"; path = "xpjsip/include/pjlib-util.h"; sourceTree = "<group>"; };
 		9DE58BDC11F46FC2D6226AF963747A76 /* JJBURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JJBURLResponseSerialization.m; sourceTree = "<group>"; };
 		9E21C5C81E895B9F99D605896D311961 /* ice_strans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ice_strans.h; path = xpjsip/include/pjnath/ice_strans.h; sourceTree = "<group>"; };
@@ -514,7 +515,7 @@
 		B4C6D814F620E34B41C6BBDB92B987E6 /* UIImageView+JJBNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JJBNetworking.m"; sourceTree = "<group>"; };
 		B557567EC4CECF795A9FF8500E15CFEB /* FGCallKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGCallKit.m; path = FGCallKit/Classes/FGCallKit.m; sourceTree = "<group>"; };
 		B5BBBE2F832BC7BD71A82C166E4EDA23 /* UIButton+JJBNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JJBNetworking.m"; sourceTree = "<group>"; };
-		B5EBFFADF1717FF93489EC86A94B0A78 /* FGCallKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FGCallKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5EBFFADF1717FF93489EC86A94B0A78 /* FGCallKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FGCallKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B61409994F61F7630D62893F4B2B9AFC /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = "xpjsip/include/pjmedia-videodev/config.h"; sourceTree = "<group>"; };
 		B688EB745255F582CEF196FBDF487C5A /* sip_auth_aka.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_auth_aka.h; path = xpjsip/include/pjsip/sip_auth_aka.h; sourceTree = "<group>"; };
 		B69860A08AFAF1BFF1EDEDBFB25DCD96 /* config_site.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_site.h; path = xpjsip/include/pj/config_site.h; sourceTree = "<group>"; };
@@ -551,14 +552,14 @@
 		CC51D25DEAB94575B042AF788B49E410 /* wav_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wav_port.h; path = xpjsip/include/pjmedia/wav_port.h; sourceTree = "<group>"; };
 		CC56B33C28E3A2E3430CC8CAA3B25ED0 /* sdp_neg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdp_neg.h; path = xpjsip/include/pjmedia/sdp_neg.h; sourceTree = "<group>"; };
 		CCA56E2FC2673548F0B7AA2E77E8F802 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = xpjsip/include/pjnath/errno.h; sourceTree = "<group>"; };
-		CCAD7B5F2B0EAB7EECCAF887DC9198F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CCAD7B5F2B0EAB7EECCAF887DC9198F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CCCDB7A1738A1C4FBAB6154C0ED233D2 /* transport_loop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transport_loop.h; path = xpjsip/include/pjmedia/transport_loop.h; sourceTree = "<group>"; };
 		CDE01760074D758B2F2D1577318E2D96 /* bcg729.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bcg729.h; path = "xpjsip/include/pjmedia-codec/bcg729.h"; sourceTree = "<group>"; };
 		CDF9F02E8F0001F767EF496F021949E9 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
 		CE08CF64D342B043B7288CE3EC756822 /* sip_endpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_endpoint.h; path = xpjsip/include/pjsip/sip_endpoint.h; sourceTree = "<group>"; };
 		CE5C4D9DAD2B8D5128189B06759A365D /* proactor.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = proactor.hpp; path = "xpjsip/include/pj++/proactor.hpp"; sourceTree = "<group>"; };
 		CE8732B58FC04323C11D3AC1511B23B0 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = xpjsip/include/pjnath/config.h; sourceTree = "<group>"; };
-		CFF0EECE0536D3F0E4FEF968E790F66A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CFF0EECE0536D3F0E4FEF968E790F66A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D055D70A1B775C6BBC2D545F325E6782 /* assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = assert.h; path = xpjsip/include/pj/assert.h; sourceTree = "<group>"; };
 		D157108FD4183D496377015BBF7343B2 /* stream_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream_common.h; path = xpjsip/include/pjmedia/stream_common.h; sourceTree = "<group>"; };
 		D4D2424D663004B990FF5F154042576B /* cc_mwcc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cc_mwcc.h; path = xpjsip/include/pj/compat/cc_mwcc.h; sourceTree = "<group>"; };
@@ -1131,7 +1132,6 @@
 				CCA8EFEF35DB77D8E447BC7AA63EF02A /* Frameworks */,
 				BF012CFB3182415AB0EEA46A262E0660 /* Support Files */,
 			);
-			name = xpjsip;
 			path = xpjsip;
 			sourceTree = "<group>";
 		};
@@ -1178,7 +1178,6 @@
 				5953A60B9AF60B145CAF6B0B38BB59F4 /* NSString+MJExtension.m */,
 				EF3E419282F307D8B0026FC265D8C4F4 /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -1205,7 +1204,6 @@
 				11D91699B6696305BCEF1BF5D5BDDE83 /* WKWebView+JJBNetworking.h */,
 				42A71113B5296703EE402960D09255F8 /* WKWebView+JJBNetworking.m */,
 			);
-			name = "UIKit+JJBNetworking";
 			path = "UIKit+JJBNetworking";
 			sourceTree = "<group>";
 		};
@@ -1935,8 +1933,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

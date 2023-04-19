@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <FGCall.h>
+#import "FGCall.h"
 
 /**
  * 语音账号状态
