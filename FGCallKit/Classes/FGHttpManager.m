@@ -6,11 +6,14 @@
 //
 
 #import "FGHttpManager.h"
-#import <AFNetworking/AFNetworking.h>
-#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+//#import <AFNetworking/AFNetworking.h>
+//#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
 #import "FGKitInfo.h"
 #import "FGUtils.h"
 #import "FGCallKit.h"
+
+#import "JJBNetworking.h"
+#import "JJBNetworkActivityIndicatorManager.h"
 
 #ifdef DEBUG
 #define FGLog(...) printf("[%s] %s [第%d行]: %s\n", __TIME__ ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String])
@@ -27,7 +30,7 @@
 
 @implementation FGHttpManager
 static BOOL _isOpenLog;
-static AFHTTPSessionManager *_sessionManager;
+static JJBHTTPSessionManager *_sessionManager;
 
 #pragma mark Init Method
 
@@ -43,12 +46,12 @@ static AFHTTPSessionManager *_sessionManager;
  *  原理参考地址:http://www.jianshu.com/p/5969bbb4af9f
  */
 + (void)initialize {
-    _sessionManager = [AFHTTPSessionManager manager];
+    _sessionManager = [JJBHTTPSessionManager manager];
     _sessionManager.requestSerializer.timeoutInterval = 30.f;
     _sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/*", nil];
-    _sessionManager.requestSerializer = [AFJSONRequestSerializer serializer];
+    _sessionManager.requestSerializer = [JJBJSONRequestSerializer serializer];
     // 打开状态栏的等待菊花
-    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    [JJBNetworkActivityIndicatorManager sharedManager].enabled = YES;
 }
 
 #pragma mark - Private Method
@@ -119,7 +122,7 @@ static AFHTTPSessionManager *_sessionManager;
         FGLog(@"\n<----%@返回结果---->\n%@\n%@", type == GET ? @"GET" : @"POST", url, error);
     }
     
-    NSData *responseData = error.userInfo[AFNetworkingOperationFailingURLResponseDataErrorKey];
+    NSData *responseData = error.userInfo[JJBNetworkingOperationFailingURLResponseDataErrorKey];
     NSString *receive = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     NSData *data = [receive dataUsingEncoding:NSUTF8StringEncoding];
     NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];

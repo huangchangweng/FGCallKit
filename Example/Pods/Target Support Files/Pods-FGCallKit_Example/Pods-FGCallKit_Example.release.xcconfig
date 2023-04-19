@@ -1,11 +1,11 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/FGCallKit" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FGCallKit" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 PJ_AUTOCONF=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FGCallKit/FGCallKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/xpjsip" "$(PODS_ROOT)/Headers/Public/xpjsip/include"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FGCallKit/FGCallKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/xpjsip" "$(PODS_ROOT)/Headers/Public/xpjsip/include"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/xpjsip/xpjsip/lib/pjlib" "${PODS_ROOT}/xpjsip/xpjsip/lib/pjlib-util" "${PODS_ROOT}/xpjsip/xpjsip/lib/pjmedia" "${PODS_ROOT}/xpjsip/xpjsip/lib/pjnath" "${PODS_ROOT}/xpjsip/xpjsip/lib/pjsip" "${PODS_ROOT}/xpjsip/xpjsip/lib/third_party"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"g7221codec" -l"gsmcodec" -l"ilbccodec" -l"pj" -l"pjlib-util" -l"pjmedia" -l"pjmedia-audiodev" -l"pjmedia-codec" -l"pjmedia-videodev" -l"pjnath" -l"pjsdp" -l"pjsip" -l"pjsip-simple" -l"pjsip-ua" -l"pjsua" -l"pjsua2" -l"resample" -l"speex" -l"srtp" -l"stdc++" -l"webrtc" -l"yuv" -framework "AFNetworking" -framework "AVFoundation" -framework "AudioToolbox" -framework "FGCallKit" -framework "Foundation" -framework "MJExtension" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"g7221codec" -l"gsmcodec" -l"ilbccodec" -l"pj" -l"pjlib-util" -l"pjmedia" -l"pjmedia-audiodev" -l"pjmedia-codec" -l"pjmedia-videodev" -l"pjnath" -l"pjsdp" -l"pjsip" -l"pjsip-simple" -l"pjsip-ua" -l"pjsua" -l"pjsua2" -l"resample" -l"speex" -l"srtp" -l"stdc++" -l"webrtc" -l"yuv" -framework "AVFoundation" -framework "AudioToolbox" -framework "FGCallKit" -framework "Foundation" -framework "MJExtension" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
