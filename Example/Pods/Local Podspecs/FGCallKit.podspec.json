@@ -1,6 +1,6 @@
 {
   "name": "FGCallKit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "飞鸽传书语音通话SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huangchangweng/FGCallKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/huangchangweng/FGCallKit.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "10.0"
@@ -28,15 +28,18 @@
     "FGCallKit/Classes/FGCall.h"
   ],
   "frameworks": [
-    "Foundation",
-    "UIKit"
+    "AVFoundation",
+    "CoreData",
+    "WebKit",
+    "SystemConfiguration",
+    "MobileCoreServices"
   ],
   "dependencies": {
     "xpjsip": [
-      "~>2.12.1"
+
     ],
     "MJExtension": [
-      "~>3.4.1"
+
     ]
   },
   "subspecs": [
