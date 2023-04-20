@@ -31,6 +31,14 @@
 #import "GSUserAgent.h"
 #import "PJSIP.h"
 #import "Util.h"
+#import "JJBCompatibilityMacros.h"
+#import "JJBHTTPSessionManager.h"
+#import "JJBNetworking.h"
+#import "JJBNetworkReachabilityManager.h"
+#import "JJBSecurityPolicy.h"
+#import "JJBURLRequestSerialization.h"
+#import "JJBURLResponseSerialization.h"
+#import "JJBURLSessionManager.h"
 
 FOUNDATION_EXPORT double FGCallKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char FGCallKitVersionString[];

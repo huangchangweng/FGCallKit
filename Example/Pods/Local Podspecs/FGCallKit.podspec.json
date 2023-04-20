@@ -1,6 +1,6 @@
 {
   "name": "FGCallKit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "summary": "飞鸽传书语音通话SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huangchangweng/FGCallKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/huangchangweng/FGCallKit.git",
-    "tag": "1.0.3"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "10.0"
@@ -35,9 +35,6 @@
     "MobileCoreServices"
   ],
   "dependencies": {
-    "xpjsip": [
-
-    ],
     "MJExtension": [
 
     ]
@@ -45,7 +42,16 @@
   "subspecs": [
     {
       "name": "Gossip",
-      "source_files": "FGCallKit/Classes/Gossip/*"
+      "source_files": "FGCallKit/Classes/Gossip/*",
+      "dependencies": {
+        "xpjsip": [
+
+        ]
+      }
+    },
+    {
+      "name": "JJBNetworking",
+      "source_files": "FGCallKit/Classes/JJBNetworking/*"
     }
   ]
 }

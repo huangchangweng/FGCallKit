@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGCallKit'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '飞鸽传书语音通话SDK'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,11 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Gossip' do |ss|
     ss.source_files = 'FGCallKit/Classes/Gossip/*'
+    ss.dependency 'xpjsip'
+  end
+  
+  s.subspec 'JJBNetworking' do |ss|
+    ss.source_files = 'FGCallKit/Classes/JJBNetworking/*'
   end
   
   # 在HEADER_SEARCH_PATHS中添加"$(PODS_ROOT)/Headers/Public/xpjsip/include"
@@ -51,7 +56,7 @@ TODO: Add long description of the pod here.
   s.frameworks = "AVFoundation", "CoreData", "WebKit", "SystemConfiguration", "MobileCoreServices"
  
 #  s.dependency 'pjsip', '2.9.0.2'
-  s.dependency 'xpjsip'
+#  s.dependency 'xpjsip'
   s.dependency 'MJExtension'
 #  s.dependency 'VialerSIPLib', '3.7.3'
 #  s.dependency 'AFNetworking', '~>4.0.1'
