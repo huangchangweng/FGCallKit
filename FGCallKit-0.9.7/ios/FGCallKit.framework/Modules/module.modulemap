@@ -1,6 +1,0 @@
-framework module FGCallKit {
-  umbrella header "FGCallKit.h"
-
-  export *
-  module * { export * }
-}
