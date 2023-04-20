@@ -1,9 +1,9 @@
 PODS:
-  - FGCallKit (0.9.7):
-    - FGCallKit/Gossip (= 0.9.7)
+  - FGCallKit (0.9.8):
+    - FGCallKit/Gossip (= 0.9.8)
     - MJExtension (~> 3.4.1)
     - xpjsip (~> 2.12.1)
-  - FGCallKit/Gossip (0.9.7):
+  - FGCallKit/Gossip (0.9.8):
     - MJExtension (~> 3.4.1)
     - xpjsip (~> 2.12.1)
   - MJExtension (3.4.1)
@@ -24,10 +24,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FGCallKit: d9bcd7f5494594e694ba1aaed2960f6b832e8f27
+  FGCallKit: 756f6ce05f073e6a244117339c704266232c1ad9
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   xpjsip: cebea22365f2a6693cff576515381242eb839254
 
-PODFILE CHECKSUM: 6dada84e9944e8d810d6da51b3cb9fecfd3b81d2
+PODFILE CHECKSUM: a72559429728dcb9a9589666a063918aea86af88
 
 COCOAPODS: 1.12.0

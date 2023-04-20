@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGCallKit'
-  s.version          = '0.9.7'
+  s.version          = '0.9.8'
   s.summary          = '飞鸽传书语音通话SDK'
 
 # This description is used to generate tags and improve search results.
@@ -55,4 +55,7 @@ TODO: Add long description of the pod here.
   s.dependency 'MJExtension', '~>3.4.1'
 #  s.dependency 'VialerSIPLib', '3.7.3'
 #  s.dependency 'AFNetworking', '~>4.0.1'
+
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
