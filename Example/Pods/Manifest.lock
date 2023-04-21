@@ -1,12 +1,12 @@
 PODS:
-  - FGCallKit (1.0.9):
-    - FGCallKit/Gossip (= 1.0.9)
-    - FGCallKit/JJBNetworking (= 1.0.9)
+  - FGCallKit (1.1.0):
+    - FGCallKit/Gossip (= 1.1.0)
+    - FGCallKit/JJBNetworking (= 1.1.0)
     - MJExtension
-  - FGCallKit/Gossip (1.0.9):
+  - FGCallKit/Gossip (1.1.0):
     - MJExtension
     - xpjsip
-  - FGCallKit/JJBNetworking (1.0.9):
+  - FGCallKit/JJBNetworking (1.1.0):
     - MJExtension
   - MJExtension (3.4.1)
   - xpjsip (2.12.1)
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FGCallKit: 2268cd46a336c0895c54835fe43452ad0b697e17
+  FGCallKit: 73b7fb79a184778bae133449433f1fab438b47ec
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   xpjsip: cebea22365f2a6693cff576515381242eb839254
 

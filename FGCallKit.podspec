@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGCallKit'
-  s.version          = '1.0.9'
+  s.version          = '1.1.0'
   s.summary          = '飞鸽传书语音通话SDK'
 
 # This description is used to generate tags and improve search results.
