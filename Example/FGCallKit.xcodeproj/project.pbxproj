@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AAEC9DE76FD25ECA13A206C5 /* Pods_FGCallKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16A39B1FADE7B009F31658C /* Pods_FGCallKit_Example.framework */; };
+		E621FC7B29F267F500A6A370 /* FGCallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E621FC7929F267F500A6A370 /* FGCallingViewController.m */; };
 		FACEAE5C7C6CEB0C8EA5FA55 /* Pods_FGCallKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE055630936452F8A7BDF21B /* Pods_FGCallKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		AE521F09CC1A1BC3E9F6551D /* Pods-FGCallKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGCallKit_Example.release.xcconfig"; path = "Target Support Files/Pods-FGCallKit_Example/Pods-FGCallKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C10659B02F57FA463BBEE86A /* Pods-FGCallKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGCallKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FGCallKit_Tests/Pods-FGCallKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E16A39B1FADE7B009F31658C /* Pods_FGCallKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGCallKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E621FC7929F267F500A6A370 /* FGCallingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGCallingViewController.m; sourceTree = "<group>"; };
+		E621FC7A29F267F500A6A370 /* FGCallingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGCallingViewController.h; sourceTree = "<group>"; };
 		EDAD10ADBB190D8C49F27679 /* Pods-FGCallKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGCallKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-FGCallKit_Example/Pods-FGCallKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FGViewController.h */,
 				6003F5A6195388D20070C39A /* FGViewController.m */,
+				E621FC7A29F267F500A6A370 /* FGCallingViewController.h */,
+				E621FC7929F267F500A6A370 /* FGCallingViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -369,6 +374,7 @@
 			files = (
 				6003F59E195388D20070C39A /* FGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FGViewController.m in Sources */,
+				E621FC7B29F267F500A6A370 /* FGCallingViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
