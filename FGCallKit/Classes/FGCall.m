@@ -98,6 +98,14 @@
 }
 
 /**
+ * 接听
+ */
+- (void)answer
+{
+    [self.call begin];
+}
+
+/**
  * 挂断
  */
 - (void)hangup:(void(^)(BOOL succeed, NSString *msg))block

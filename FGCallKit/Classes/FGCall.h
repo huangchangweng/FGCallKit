@@ -48,6 +48,11 @@ typedef NS_ENUM(NSUInteger, FGCallStatus) {
                   isIncoming:(BOOL)isIncoming;
 
 /**
+ * 接听
+ */
+- (void)answer;
+
+/**
  * 挂断
  */
 - (void)hangup:(void(^)(BOOL succeed, NSString *msg))block;

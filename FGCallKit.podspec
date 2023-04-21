@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGCallKit'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = '飞鸽传书语音通话SDK'
 
 # This description is used to generate tags and improve search results.
@@ -54,7 +54,7 @@ TODO: Add long description of the pod here.
   
   # 依赖系统库
   s.frameworks = "AVFoundation", "CoreData", "WebKit", "SystemConfiguration", "MobileCoreServices", "AudioToolbox"
-  s.libraries = 'stdc++'
+  s.libraries = 'stdc++', 'c++', 'z'
  
 #  s.dependency 'pjsip', '2.9.0.2'
 #  s.dependency 'xpjsip'
